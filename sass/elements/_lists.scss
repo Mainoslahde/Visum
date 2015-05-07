@@ -1,0 +1,53 @@
+ul, ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+.menu-wrap ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-wrap ul li:not(.menu-item) {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.media-list {
+    margin: 0;
+    padding: 0;
+}
+
+.tag-list {
+    min-height: 400px;
+}
+
+.tags a {
+    background: $color__black;
+    display: inline-block;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: $color__white;
+}

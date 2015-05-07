@@ -1,0 +1,276 @@
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Mainos
+--------------------------------------------------------------*/
+
+.banner { 
+    position: relative; 
+    overflow: auto; 
+    height: 100%;
+    width: 100%;
+}
+
+.banner li { 
+    list-style: none; 
+}
+
+.banner ul li { 
+    float: left; 
+    height: 100%;
+    width: 100%;
+}
+
+.slider {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner .dot {
+        @include vendor-prefix(filter, drop-shadow(0 1px 2px rgba(0,0,0,1)));
+	}
+
+.banner .dots {
+    position: fixed;
+    left: 50%;
+    @include vendor-prefix(transform, translateX(-50%));
+    bottom: 20px;
+    padding: 0;
+}
+
+.banner .dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+
+    text-indent: -999em;
+
+    border: 2px solid $color__dots-border;
+    border-radius: 6px;
+
+    cursor: pointer;
+    opacity: .4;
+
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+
+.banner .dots li.active {
+    background: $color__dots-active;
+    border: 2px solid $color__dots-border;
+    opacity: 1;
+}
+
+body, html {
+  margin: 0;
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+
+.page-template-template-tuote {
+    overflow: hidden;
+}
+
+body, .onepage-wrapper, html {
+  display: block;
+  position: static;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.onepage-wrapper, .section {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  padding: 0;
+  -webkit-transform-style: preserve-3d;
+}
+
+.onepage-wrapper .ops-section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.onepage-pagination {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translate(0,-50%);
+  -webkit-transform: translate(0,-50%);
+  -moz-transform: translate(0,-50%);
+  z-index: 5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.onepage-pagination li {
+  padding: 0;
+  text-align: center;
+}
+.onepage-pagination li a{
+  padding: 10px;
+  width: 4px;
+  height: 4px;
+  display: block;
+  
+}
+.onepage-pagination li a:before{
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: rgba(255,255,255, 1);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.onepage-pagination li a.active:before{
+  width: 10px;
+  height: 10px;
+  background: none;
+  border: 1px solid red;
+  margin-top: -4px;
+  left: 8px;
+}
+
+.disabled-onepage-scroll, .disabled-onepage-scroll .wrapper {
+  overflow: auto;
+}
+
+.disabled-onepage-scroll .onepage-wrapper .ops-section {
+  position: relative !important;
+  top: auto !important;
+}
+.disabled-onepage-scroll .onepage-wrapper {
+  -webkit-transform: none !important;
+  -moz-transform: none !important;
+  transform: none !important;
+  -ms-transform: none !important;
+  min-height: 100%;
+}
+
+
+.disabled-onepage-scroll .onepage-pagination {
+  display: none;
+}
+
+body.disabled-onepage-scroll, .disabled-onepage-scroll .onepage-wrapper, html {
+  position: inherit;
+}
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: #000; /* Old browsers */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    z-index:100; /* makes sure it stays on top */
+}
+
+$width: 50px;
+$height: $width;
+$color: #fff;
+$radius: 10px;
+
+#preloader span {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     @include vendor-prefix(transform, translate(-50%,-50%));
+     font-size: 11px;
+     display: block;
+}
+
+.square {
+  border: 1px solid $color;
+  border-radius: $radius;
+  @include center($width, $height);
+    &:nth-child(1){
+      -webkit-animation: rotate 10s linear infinite;
+      -webkit-opacity: 1;
+    }
+      &:nth-child(2){
+      -webkit-animation: rotate2 10s linear infinite;
+      -webkit-opacity: 0.8;
+    }
+      &:nth-child(3){
+      -webkit-animation: rotate3 10s linear infinite;
+      -webkit-opacity: 0.6;
+    }
+      &:nth-child(4){
+      -webkit-animation: rotate4 10s linear infinite;
+      -webkit-opacity: 0.4; 
+    }
+      &:nth-child(5){
+      -webkit-animation: rotate5 10s linear infinite;
+        -webkit-opacity: 0.2;
+    }
+}
+
+
+@-webkit-keyframes rotate {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes rotate2 {
+  from { -webkit-transform: rotate(0deg);}
+  to { -webkit-transform: rotate(360deg * 2);}
+}
+
+@-webkit-keyframes rotate3 {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg * 3); }
+}
+
+@-webkit-keyframes rotate4 {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg * 4); }
+}
+
+@-webkit-keyframes rotate5 {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg * 5); }
+}
+
+
+.gallery-cell {
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+@import "captions";
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+@import "galleries";

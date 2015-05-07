@@ -1,0 +1,100 @@
+@import "buttons";
+
+@import "fields";
+
+textarea.form-control {
+  height: 90px;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+  background-color: $color__link-visited;
+  border: 0;
+  padding: 10px 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.ss-form li {
+    list-style: none !important;
+}
+
+/* GOOGLE FORM */
+
+input.jfk-button {
+    border: 1px solid $color__link-visited !important;
+    background-color: $color__link-visited !important;
+    padding: 10px 85px;
+    color: $color__button-text;
+    font-style: italic;
+    margin-top: 10px;
+    @include vendor-prefix(text-shadow, (1px 1px 0 $color__button-text-shadow));
+}
+
+input.jfk-button:hover {  
+    background-color: $color__link-hover !important;
+    border: 1px solid $color__link-hover !important;
+}
+
+.page-template-template-kilpailu label input, .page-id-265 label input{ /* HIDE RADIO */
+  visibility: hidden;
+  position: absolute;
+}
+
+label input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+
+label input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  background: $color__link-visited;
+  border-radius: 10px;
+} 
+
+.ss-choice-item-control {
+    width: 285px;
+    height: 245px;
+    display: block;
+}
+
+.ss-choice-item {
+    float: left;
+}
+
+.ss-choices {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ss-q-title {}
+
+label.error {
+    display: list-item;
+    color: #ff0600;
+    font-size: 12px;
+    list-style-position: inside;
+    padding: 5px 0 0;
+}
+
+/* .invalid class prevents CSS from automatically applying */
+.invalid input:required:invalid {
+  background: #BE4C54;
+}
+ 
+/* Mark valid inputs during .invalid state */
+.invalid input:required:valid {
+  background: #17D654 ;
+}
+
+.tiedot-wrapper {
+    background: rgba(0,0,0,0.75);
+    padding: 15px;
+}
+
+.ss-form-question {
+    margin-bottom: 15px;
+}
+
+#group_551993266_1 {
+    background: url(img/aanestys2/sandy.png)
+}

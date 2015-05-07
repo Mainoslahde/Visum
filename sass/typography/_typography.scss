@@ -1,0 +1,42 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	@include font-size(1.5);
+	line-height: $font__line-height-body;
+}
+
+.hinta, .hinta-wrapper {
+    font-size: 45px;
+}
+
+.hinta-inner {
+    float: left;
+}
+
+.kpl {
+    font-size: 25px;
+    display: block;
+    clear: right;
+}
+
+.kpl ~ .hinta {
+margin-top: -9px;
+display: block;
+}
+
+.col-xs-3 .hinta {
+    font-size: 32px;
+}
+
+.kuvaus {
+    margin: 25px 0;
+    line-height: 2em;
+}
+
+@import "headings";
+
+@import "copy";

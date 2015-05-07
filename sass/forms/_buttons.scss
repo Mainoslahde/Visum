@@ -1,0 +1,53 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	color: $color__button-text;
+    font-style: italic;
+	@include font-size(1.5);
+    @include vendor-prefix(text-shadow, (1px 1px 0 $color__button-text-shadow));
+	line-height: 1;
+	padding: .6em 1em .4em;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
+
+.bonfire-slideout-button-triangle-background {
+  opacity: 0.95;
+  border-bottom: 65px solid #fff;
+  border-left: 65px solid transparent;
+  width: 0;
+  height: 0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 99999998;
+  pointer-events: none;
+}
+
+.bonfire-slideout-button {
+  font-size: 15px;
+  color: #C8C8C8;
+  text-decoration: none !important;
+  padding: 10px 10px 10px 10px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 99999999;
+  -webkit-transition: all .35s ease;
+  -moz-transition: all .35s ease;
+  -o-transition: all .35s ease;
+  -ms-transition: all .35s ease;
+  transition: all .35s ease;
+}
