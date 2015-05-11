@@ -75,7 +75,7 @@
         </div>
 
         <?php endwhile; else: ?>
-        <p><?php _e('Sorry, no posts matched your criteria.', 'istand'); ?></p>
+        <p><?php _e('Sorry, no posts matched your criteria.', 'visum'); ?></p>
         <?php endif; ?>          
     </div>
 

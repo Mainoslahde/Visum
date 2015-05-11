@@ -28,7 +28,7 @@
                     </div>
               <?php  }
             } else {
-               _e('Sorry, no posts matched your criteria.', 'istand');
+               _e('Sorry, no posts matched your criteria.', 'visum');
             }
 
             // Restore original Post Data

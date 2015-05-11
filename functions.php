@@ -272,7 +272,7 @@ require get_template_directory() . '/inc/jetpack.php';
         $args = array(
             'id'            => 'menu-sidebar',
             'description'   => 'Ensimmäinen sivupalkki',
-            'name'          => __( 'Menu Right', 'istand' ),
+            'name'          => __( 'Menu Right', 'visum' ),
             'class'         => 'sidebar-widget',
             'before_title'  => '<h3>',
             'after_title'   => '</h3>',
@@ -296,7 +296,7 @@ require get_template_directory() . '/inc/jetpack.php';
         $args = array(
             'id'            => 'menu-sidebar-2',
             'description'   => 'Toinen sivupalkki',
-            'name'          => __( 'Menu Right 2', 'istand' ),
+            'name'          => __( 'Menu Right 2', 'visum' ),
             'class'         => 'sidebar-widget-2',
             'before_title'  => '<h3>',
             'after_title'   => '</h3>',
@@ -312,6 +312,158 @@ require get_template_directory() . '/inc/jetpack.php';
 
     }
 
+    ///////////////////////////////////////
+	// Register Tuote Post Type
+	///////////////////////////////////////
+
+    if ( ! function_exists('tuote_post_type') ) {
+
+    function tuote_post_type() {
+
+        $labels = array(
+            'name'                => _x( 'Tuotteet', 'Post Type General Name', 'visum' ),
+            'singular_name'       => _x( 'Tuote', 'Post Type Singular Name', 'visum' ),
+            'menu_name'           => __( 'Tuote', 'visum' ),
+            'parent_item_colon'   => __( 'Parent Item:', 'visum' ),
+            'all_items'           => __( 'Kaikki tuotteet', 'visum' ),
+            'view_item'           => __( 'Katsele tuotetta', 'visum' ),
+            'add_new_item'        => __( 'Lisää uusi tuote', 'visum' ),
+            'add_new'             => __( 'Lisää uusi', 'visum' ),
+            'edit_item'           => __( 'Muokkaa tuotetta', 'visum' ),
+            'update_item'         => __( 'Päivitä tuote', 'visum' ),
+            'search_items'        => __( 'Hae tuotteita', 'visum' ),
+            'not_found'           => __( 'Ei löydy', 'visum' ),
+            'not_found_in_trash'  => __( 'Ei löydy roskakorista', 'visum' ),
+        );
+        $args = array(
+            'label'               => __( 'tuote', 'visum' ),
+            'description'         => __( 'Tuotteet', 'visum' ),
+            'labels'              => $labels,
+            'supports'            => array( 'title', 'editor', 'thumbnail', 'comments'),
+            'taxonomies'          => array( 'category', 'tayte' ),
+            'hierarchical'        => false,
+            'public'              => true,
+            'show_ui'             => true,
+            'show_in_menu'        => true,
+            'show_in_nav_menus'   => true,
+            'show_in_admin_bar'   => true,
+            'menu_position'       => 5,
+            'can_export'          => true,
+            'has_archive'         => true,
+            'exclude_from_search' => false,
+            'publicly_queryable'  => true,
+            'capability_type'     => 'page',
+        );
+        register_post_type( 'tuote', $args );
+
+    }
+
+    // Hook into the 'init' action
+    add_action( 'init', 'tuote_post_type', 0 );
+        
+    }
+
+    ///////////////////////////////////////
+	// Register Ohjelma Post Type
+	///////////////////////////////////////
+
+    if ( ! function_exists('ohjelma_post_type') ) {
+
+    function ohjelma_post_type() {
+
+        $labels = array(
+            'name'                => _x( 'Ohjelmat', 'Post Type General Name', 'visum' ),
+            'singular_name'       => _x( 'Ohjelma', 'Post Type Singular Name', 'visum' ),
+            'menu_name'           => __( 'Ohjelma', 'visum' ),
+            'parent_item_colon'   => __( 'Parent Item:', 'visum' ),
+            'all_items'           => __( 'Kaikki ohjelmat', 'visum' ),
+            'view_item'           => __( 'Katsele ohjelmaa', 'visum' ),
+            'add_new_item'        => __( 'Lisää uusi ohjelma', 'visum' ),
+            'add_new'             => __( 'Lisää uusi', 'visum' ),
+            'edit_item'           => __( 'Muokkaa ohjelmaa', 'visum' ),
+            'update_item'         => __( 'Päivitä ohjelma', 'visum' ),
+            'search_items'        => __( 'Hae ohjelma', 'visum' ),
+            'not_found'           => __( 'Ei löydy', 'visum' ),
+            'not_found_in_trash'  => __( 'Ei löydy roskakorista', 'visum' ),
+        );
+        $args = array(
+            'label'               => __( 'ohjelma_post_type', 'visum' ),
+            'description'         => __( 'Tulevaa ohjelma listaus', 'visum' ),
+            'labels'              => $labels,
+            'supports'            => array( 'title', 'editor', 'thumbnail', ),
+            'taxonomies'          => array( 'category', 'post_tag' ),
+            'hierarchical'        => false,
+            'public'              => true,
+            'show_ui'             => true,
+            'show_in_menu'        => true,
+            'show_in_nav_menus'   => true,
+            'show_in_admin_bar'   => true,
+            'menu_position'       => 5,
+            'can_export'          => true,
+            'has_archive'         => true,
+            'exclude_from_search' => false,
+            'publicly_queryable'  => true,
+            'capability_type'     => 'page',
+        );
+        register_post_type( 'ohjelma_post_type', $args );
+
+    }
+
+    // Hook into the 'init' action
+    add_action( 'init', 'ohjelma_post_type', 0 );
+        
+    }
+
+    ///////////////////////////////////////
+	// Register Mainos Post Type
+	///////////////////////////////////////
+
+    if ( ! function_exists('mainos_post_type') ) {
+
+    function mainos_post_type() {
+
+        $labels = array(
+            'name'                => _x( 'Mainokset', 'Post Type General Name', 'visum' ),
+            'singular_name'       => _x( 'Mainos', 'Post Type Singular Name', 'visum' ),
+            'menu_name'           => __( 'Mainos', 'visum' ),
+            'parent_item_colon'   => __( 'Parent Item:', 'visum' ),
+            'all_items'           => __( 'Kaikki mainokset', 'visum' ),
+            'view_item'           => __( 'Katsele mainosta', 'visum' ),
+            'add_new_item'        => __( 'Lisää uusi mainos', 'visum' ),
+            'add_new'             => __( 'Lisää uusi', 'visum' ),
+            'edit_item'           => __( 'Muokkaa mainosta', 'visum' ),
+            'update_item'         => __( 'Päivitä mainos', 'visum' ),
+            'search_items'        => __( 'Hae mainoksia', 'visum' ),
+            'not_found'           => __( 'Ei löydy', 'visum' ),
+            'not_found_in_trash'  => __( 'Ei löydy roskakorista', 'visum' ),
+        );
+        $args = array(
+            'label'               => __( 'mainos_post_type', 'visum' ),
+            'description'         => __( 'Etusivun mainokset', 'visum' ),
+            'labels'              => $labels,
+            'supports'            => array( 'title', 'editor', 'thumbnail', ),
+            'taxonomies'          => array( 'category', 'post_tag' ),
+            'hierarchical'        => false,
+            'public'              => true,
+            'show_ui'             => true,
+            'show_in_menu'        => true,
+            'show_in_nav_menus'   => true,
+            'show_in_admin_bar'   => true,
+            'menu_position'       => 5,
+            'can_export'          => true,
+            'has_archive'         => true,
+            'exclude_from_search' => false,
+            'publicly_queryable'  => true,
+            'capability_type'     => 'page',
+        );
+        register_post_type( 'mainos', $args );
+
+    }
+
+    // Hook into the 'init' action
+    add_action( 'init', 'mainos_post_type', 0 );
+        
+    }
 
 	///////////////////////////////////////
 	// Advanced Custom Fields 

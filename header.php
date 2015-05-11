@@ -42,6 +42,8 @@
                     </nav>
             <?php endif; ?>
                 </div>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/visum_logo.svg" alt="Visum" class="logo">
+
             </nav>
         </div>
         <span class="menu-button" id="open-button"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" /></span>
