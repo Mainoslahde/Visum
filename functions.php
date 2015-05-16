@@ -133,12 +133,6 @@ require get_template_directory() . '/inc/jetpack.php';
     remove_filter( 'the_excerpt', 'wpautop' );
 
 	///////////////////////////////////////
-	// Include Advanced Custom Fields Plugin
-	///////////////////////////////////////
-
-    include_once('advanced-custom-fields/acf.php');
-
-	///////////////////////////////////////
 	// Enqueue jQuery
 	///////////////////////////////////////
 
@@ -312,292 +306,44 @@ require get_template_directory() . '/inc/jetpack.php';
 
     }
 
-    ///////////////////////////////////////
-	// Register Tuote Post Type
-	///////////////////////////////////////
-
-    if ( ! function_exists('tuote_post_type') ) {
-
-    function tuote_post_type() {
-
-        $labels = array(
-            'name'                => _x( 'Tuotteet', 'Post Type General Name', 'visum' ),
-            'singular_name'       => _x( 'Tuote', 'Post Type Singular Name', 'visum' ),
-            'menu_name'           => __( 'Tuote', 'visum' ),
-            'parent_item_colon'   => __( 'Parent Item:', 'visum' ),
-            'all_items'           => __( 'Kaikki tuotteet', 'visum' ),
-            'view_item'           => __( 'Katsele tuotetta', 'visum' ),
-            'add_new_item'        => __( 'Lisää uusi tuote', 'visum' ),
-            'add_new'             => __( 'Lisää uusi', 'visum' ),
-            'edit_item'           => __( 'Muokkaa tuotetta', 'visum' ),
-            'update_item'         => __( 'Päivitä tuote', 'visum' ),
-            'search_items'        => __( 'Hae tuotteita', 'visum' ),
-            'not_found'           => __( 'Ei löydy', 'visum' ),
-            'not_found_in_trash'  => __( 'Ei löydy roskakorista', 'visum' ),
-        );
-        $args = array(
-            'label'               => __( 'tuote', 'visum' ),
-            'description'         => __( 'Tuotteet', 'visum' ),
-            'labels'              => $labels,
-            'supports'            => array( 'title', 'editor', 'thumbnail', 'comments'),
-            'taxonomies'          => array( 'category', 'tayte' ),
-            'hierarchical'        => false,
-            'public'              => true,
-            'show_ui'             => true,
-            'show_in_menu'        => true,
-            'show_in_nav_menus'   => true,
-            'show_in_admin_bar'   => true,
-            'menu_position'       => 5,
-            'can_export'          => true,
-            'has_archive'         => true,
-            'exclude_from_search' => false,
-            'publicly_queryable'  => true,
-            'capability_type'     => 'page',
-        );
-        register_post_type( 'tuote', $args );
-
-    }
-
-    // Hook into the 'init' action
-    add_action( 'init', 'tuote_post_type', 0 );
-        
-    }
-
-    ///////////////////////////////////////
-	// Register Ohjelma Post Type
-	///////////////////////////////////////
-
-    if ( ! function_exists('ohjelma_post_type') ) {
-
-    function ohjelma_post_type() {
-
-        $labels = array(
-            'name'                => _x( 'Ohjelmat', 'Post Type General Name', 'visum' ),
-            'singular_name'       => _x( 'Ohjelma', 'Post Type Singular Name', 'visum' ),
-            'menu_name'           => __( 'Ohjelma', 'visum' ),
-            'parent_item_colon'   => __( 'Parent Item:', 'visum' ),
-            'all_items'           => __( 'Kaikki ohjelmat', 'visum' ),
-            'view_item'           => __( 'Katsele ohjelmaa', 'visum' ),
-            'add_new_item'        => __( 'Lisää uusi ohjelma', 'visum' ),
-            'add_new'             => __( 'Lisää uusi', 'visum' ),
-            'edit_item'           => __( 'Muokkaa ohjelmaa', 'visum' ),
-            'update_item'         => __( 'Päivitä ohjelma', 'visum' ),
-            'search_items'        => __( 'Hae ohjelma', 'visum' ),
-            'not_found'           => __( 'Ei löydy', 'visum' ),
-            'not_found_in_trash'  => __( 'Ei löydy roskakorista', 'visum' ),
-        );
-        $args = array(
-            'label'               => __( 'ohjelma_post_type', 'visum' ),
-            'description'         => __( 'Tulevaa ohjelma listaus', 'visum' ),
-            'labels'              => $labels,
-            'supports'            => array( 'title', 'editor', 'thumbnail', ),
-            'taxonomies'          => array( 'category', 'post_tag' ),
-            'hierarchical'        => false,
-            'public'              => true,
-            'show_ui'             => true,
-            'show_in_menu'        => true,
-            'show_in_nav_menus'   => true,
-            'show_in_admin_bar'   => true,
-            'menu_position'       => 5,
-            'can_export'          => true,
-            'has_archive'         => true,
-            'exclude_from_search' => false,
-            'publicly_queryable'  => true,
-            'capability_type'     => 'page',
-        );
-        register_post_type( 'ohjelma_post_type', $args );
-
-    }
-
-    // Hook into the 'init' action
-    add_action( 'init', 'ohjelma_post_type', 0 );
-        
-    }
-
-    ///////////////////////////////////////
-	// Register Mainos Post Type
-	///////////////////////////////////////
-
-    if ( ! function_exists('mainos_post_type') ) {
-
-    function mainos_post_type() {
-
-        $labels = array(
-            'name'                => _x( 'Mainokset', 'Post Type General Name', 'visum' ),
-            'singular_name'       => _x( 'Mainos', 'Post Type Singular Name', 'visum' ),
-            'menu_name'           => __( 'Mainos', 'visum' ),
-            'parent_item_colon'   => __( 'Parent Item:', 'visum' ),
-            'all_items'           => __( 'Kaikki mainokset', 'visum' ),
-            'view_item'           => __( 'Katsele mainosta', 'visum' ),
-            'add_new_item'        => __( 'Lisää uusi mainos', 'visum' ),
-            'add_new'             => __( 'Lisää uusi', 'visum' ),
-            'edit_item'           => __( 'Muokkaa mainosta', 'visum' ),
-            'update_item'         => __( 'Päivitä mainos', 'visum' ),
-            'search_items'        => __( 'Hae mainoksia', 'visum' ),
-            'not_found'           => __( 'Ei löydy', 'visum' ),
-            'not_found_in_trash'  => __( 'Ei löydy roskakorista', 'visum' ),
-        );
-        $args = array(
-            'label'               => __( 'mainos_post_type', 'visum' ),
-            'description'         => __( 'Etusivun mainokset', 'visum' ),
-            'labels'              => $labels,
-            'supports'            => array( 'title', 'editor', 'thumbnail', ),
-            'taxonomies'          => array( 'category', 'post_tag' ),
-            'hierarchical'        => false,
-            'public'              => true,
-            'show_ui'             => true,
-            'show_in_menu'        => true,
-            'show_in_nav_menus'   => true,
-            'show_in_admin_bar'   => true,
-            'menu_position'       => 5,
-            'can_export'          => true,
-            'has_archive'         => true,
-            'exclude_from_search' => false,
-            'publicly_queryable'  => true,
-            'capability_type'     => 'page',
-        );
-        register_post_type( 'mainos', $args );
-
-    }
-
-    // Hook into the 'init' action
-    add_action( 'init', 'mainos_post_type', 0 );
-        
-    }
-
 	///////////////////////////////////////
 	// Advanced Custom Fields 
 	///////////////////////////////////////
 
-    if(function_exists("register_field_group"))
-    {
-        register_field_group(array (
-            'id' => 'acf_mainos',
-            'title' => 'Mainos',
-            'fields' => array (
-                array (
-                    'key' => 'field_5448e9f162dd4',
-                    'label' => 'Mainoskuva',
-                    'name' => 'mainoskuva',
-                    'type' => 'image',
-                    'instructions' => '1024px leveys
-        768px korkeus TAI retinanäyttöihin 2048px leveys 1563px korkeus',
-                    'required' => 1,
-                    'save_format' => 'url',
-                    'preview_size' => 'thumbnail',
-                    'library' => 'all',
-                ),
-            ),
-            'location' => array (
-                array (
-                    array (
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'mainos',
-                        'order_no' => 0,
-                        'group_no' => 0,
-                    ),
-                ),
-            ),
-            'options' => array (
-                'position' => 'normal',
-                'layout' => 'no_box',
-                'hide_on_screen' => array (
-                    0 => 'permalink',
-                    1 => 'the_content',
-                    2 => 'excerpt',
-                    3 => 'custom_fields',
-                    4 => 'discussion',
-                    5 => 'comments',
-                    6 => 'revisions',
-                    7 => 'slug',
-                    8 => 'author',
-                    9 => 'format',
-                    10 => 'featured_image',
-                    11 => 'categories',
-                    12 => 'tags',
-                    13 => 'send-trackbacks',
-                ),
-            ),
-            'menu_order' => 0,
-        ));
-        register_field_group(array (
-            'id' => 'acf_ohjelma',
-            'title' => 'Ohjelma',
-            'fields' => array (
-                array (
-                    'key' => 'field_544a109d15601',
-                    'label' => 'Päivämäärä',
-                    'name' => 'paivamaara',
-                    'type' => 'date_picker',
-                    'instructions' => 'Ohjelman päivämäärä',
-                    'date_format' => 'yymmdd',
-                    'display_format' => 'dd/mm/yy',
-                    'first_day' => 1,
-                ),
-                array (
-                    'key' => 'field_544a10d415602',
-                    'label' => 'Ohjelman nimi',
-                    'name' => 'ohjelma_nimi',
-                    'type' => 'text',
-                    'instructions' => 'Ohjelman nimi / otsikko',
-                    'required' => 1,
-                    'default_value' => 'Ohjelman nimi tähän',
-                    'placeholder' => '',
-                    'prepend' => '',
-                    'append' => '',
-                    'formatting' => 'html',
-                    'maxlength' => '',
-                ),
-                array (
-                    'key' => 'field_544a110b15603',
-                    'label' => 'Ohjelman kuvaus',
-                    'name' => 'ohjelma_kuvaus',
-                    'type' => 'textarea',
-                    'instructions' => 'Ohjelman kuvaus lyhyesti. Tähän myös hinnat / ikärajoitukset',
-                    'default_value' => 'Ohjelman kuvaus lyhyesti. Tähän myös hinnat / ikärajoitukset',
-                    'placeholder' => '',
-                    'maxlength' => '',
-                    'rows' => '',
-                    'formatting' => 'br',
-                ),
-            ),
-            'location' => array (
-                array (
-                    array (
-                        'param' => 'post_type',
-                        'operator' => '==',
-                        'value' => 'ohjelma_post_type',
-                        'order_no' => 0,
-                        'group_no' => 0,
-                    ),
-                ),
-            ),
-            'options' => array (
-                'position' => 'normal',
-                'layout' => 'no_box',
-                'hide_on_screen' => array (
-                    0 => 'permalink',
-                    1 => 'the_content',
-                    2 => 'excerpt',
-                    3 => 'custom_fields',
-                    4 => 'discussion',
-                    5 => 'comments',
-                    6 => 'revisions',
-                    7 => 'slug',
-                    8 => 'author',
-                    9 => 'format',
-                    10 => 'featured_image',
-                    11 => 'categories',
-                    12 => 'tags',
-                    13 => 'send-trackbacks',
-                ),
-            ),
-            'menu_order' => 0,
-        ));
+    // 1. customize ACF path
+    add_filter('acf/settings/path', 'my_acf_settings_path');
+
+    function my_acf_settings_path( $path ) {
+
+        // update path
+        $path = get_stylesheet_directory() . '/acf/';
+
+        // return
+        return $path;
+
     }
 
-	
+
+    // 2. customize ACF dir
+    add_filter('acf/settings/dir', 'my_acf_settings_dir');
+
+    function my_acf_settings_dir( $dir ) {
+
+        // update path
+        $dir = get_stylesheet_directory_uri() . '/acf/';
+
+        // return
+        return $dir;
+
+    }
+
+    // 3. Hide ACF field group menu item
+    //add_filter('acf/settings/show_admin', '__return_false');
+
+
+    // 4. Include ACF
+    include_once( get_stylesheet_directory() . '/acf/acf.php' );
+
     ///////////////////////////////////////
 	// SHORTCODES
 	///////////////////////////////////////
@@ -849,17 +595,6 @@ require get_template_directory() . '/inc/jetpack.php';
 	}
 	add_filter('admin_footer_text', 'remove_footer_admin');
 
-	///////////////////////////////////////
-	// Custom login
-	///////////////////////////////////////
-
-	function my_custom_login_logo() {
-	    echo '<style type="text/css">
-	        h1 a { background-image:url('.get_stylesheet_directory_uri().'/img/logo.png) !important; width: 100% !important; height: 63px !important; background-size: 207px !important;}
-	    </style>';
-	}
-	add_action('login_head', 'my_custom_login_logo');
-
 	// Disable the Admin Bar.
 	//add_filter( 'show_admin_bar', '__return_false' );
 	
@@ -870,5 +605,94 @@ require get_template_directory() . '/inc/jetpack.php';
 		$wp_admin_bar->remove_menu('comments');
 	}
 	add_action( 'wp_before_admin_bar_render', 'remove_admin_bar_links' );
+
+	///////////////////////////////////////
+	// Remove dashboard widgets
+	///////////////////////////////////////
+
+    function remove_dashboard_meta() {
+            remove_meta_box( 'dashboard_incoming_links', 'dashboard', 'normal' );
+            remove_meta_box( 'dashboard_plugins', 'dashboard', 'normal' );
+            remove_meta_box( 'dashboard_primary', 'dashboard', 'side' );
+            remove_meta_box( 'dashboard_secondary', 'dashboard', 'normal' );
+            remove_meta_box( 'dashboard_quick_press', 'dashboard', 'side' );
+            remove_meta_box( 'dashboard_recent_drafts', 'dashboard', 'side' );
+            remove_meta_box( 'dashboard_recent_comments', 'dashboard', 'normal' );
+            remove_meta_box( 'dashboard_right_now', 'dashboard', 'normal' );
+            remove_meta_box( 'dashboard_activity', 'dashboard', 'normal');//since 3.8
+    }
+    add_action( 'admin_init', 'remove_dashboard_meta' );
+    remove_action( 'welcome_panel', 'wp_welcome_panel' );
+
+	///////////////////////////////////////
+	// Active TGM Plugin (required plugins)
+	///////////////////////////////////////
+
+    require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
+
+    add_action( 'tgmpa_register', 'brewhouse_recommend_plugin' );
+    function brewhouse_recommend_plugin() {  
+
+        $plugins = array(
+            // Include plugin from the WordPress Plugin Repository
+
+            array(
+                'name'		=> 'TinyMCE Advanced', // http://wordpress.org/plugins/tinymce-advanced/
+                'slug'		=> 'tinymce-advanced',
+                'required'	=> false
+            ),
+
+            array(
+                'name'		=> 'Simple Custom Post Order', // https://wordpress.org/plugins/simple-custom-post-order/
+                'slug'		=> 'simple-custom-post-order',
+                'required'	=> false
+            ),
+                 
+            array(
+                'name'               => 'Visom Admin Theme', // The plugin name.
+                'slug'               => 'VisomAdminTheme', // The plugin slug (typically the folder name).
+                'source'             => get_stylesheet_directory() . '/plugins/VisomAdminTheme.zip', // The plugin source.
+                'required'           => true, // If false, the plugin is only 'recommended' instead of required.
+                'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher.
+                'force_activation'   => true, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
+                'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
+                'external_url'       => '', // If set, overrides default API URL and points to an external URL.
+            ),            
+            array(
+                'name'               => 'Visom - Mainokset', // The plugin name.
+                'slug'               => 'VisomMainos', // The plugin slug (typically the folder name).
+                'source'             => get_stylesheet_directory() . '/plugins/VisomMainos.zip', // The plugin source.
+                'required'           => false, // If false, the plugin is only 'recommended' instead of required.
+                'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher.
+                'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
+                'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
+                'external_url'       => '', // If set, overrides default API URL and points to an external URL.
+            ),          
+            array(
+                'name'               => 'Visom - Ohjelmat', // The plugin name.
+                'slug'               => 'VisomOhjelma', // The plugin slug (typically the folder name).
+                'source'             => get_stylesheet_directory() . '/plugins/VisomOhjelma.zip', // The plugin source.
+                'required'           => false, // If false, the plugin is only 'recommended' instead of required.
+                'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher.
+                'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
+                'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
+                'external_url'       => '', // If set, overrides default API URL and points to an external URL.
+            ),            
+            array(
+                'name'               => 'Visom - Tuote', // The plugin name.
+                'slug'               => 'VisomTuote', // The plugin slug (typically the folder name).
+                'source'             => get_stylesheet_directory() . '/plugins/VisomTuote.zip', // The plugin source.
+                'required'           => false, // If false, the plugin is only 'recommended' instead of required.
+                'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher.
+                'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
+                'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
+                'external_url'       => '', // If set, overrides default API URL and points to an external URL.
+            ),
+            
+        );
+
+        tgmpa( $plugins);
+
+    }
 
 ?>
