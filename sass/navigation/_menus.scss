@@ -112,7 +112,6 @@
     width: 398px;
     height: 70px;
     border: none;
-    text-indent: 2.5em;
     font-size: 1em;
     color: transparent;
     right: -240px;
@@ -120,9 +119,6 @@
     cursor: pointer;
 }
 
-.menu-button img {
-    margin-left: -40px;
-}
 
 .menu-button-open {
     right: 0;
@@ -179,10 +175,10 @@
     overflow-y: hidden;
 	-webkit-transform: translate3d(825px,0,0);
 	transform: translate3d(825px,0,0);
-	-webkit-transition: -webkit-transform 1.4s;
-	transition: transform 1.4s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	-webkit-transition: -webkit-transform 1s;
+	transition: transform 1s;
+	/*-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);*/
 }
 
 .icon-list .sidebar-menu {
@@ -357,8 +353,8 @@ ul.sub-menu a {
 .icon-list a {
 	-webkit-transition: -webkit-transform 0s 0.4s;
 	transition: transform 0s 0.4s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	/*-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);*/
 }
 
 
@@ -371,10 +367,10 @@ ul.sub-menu a {
 .show-menu .menu-wrap {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	-webkit-transition: -webkit-transform 0.8s;
-	transition: transform 0.8s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	/*-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);*/
 }
 
 .show-menu .sidebar-wrap-right {
