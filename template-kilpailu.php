@@ -11,21 +11,21 @@
 <?php get_header(); ?>
 
 <div class="container-fluid">        
-    <?php /* Sandy vs Bablo äänestyslomake */ ?>
+        <?php /* Sandy vs Bablo äänestyslomake */ ?>
        
        <div class="content">     
         <script type="text/javascript">var submitted=false;</script>
         <iframe name="hidden_iframe" id="hidden_iframe"
         style="display:none;" onload="if(submitted)
         {window.location='./confirmation-page';}"></iframe>
-        <form action="<?php the_field('google_form_url'); ?>" method="post" target="hidden_iframe" id="arvontaForm" onsubmit="submitted=true;">
+        <form action="#" method="post" target="hidden_iframe" id="arvontaForm" onsubmit="submitted=true;">
             <ol role="list" class="ss-question-list" style="padding-left: 0">
                 <div class="ss-form-question errorbox-good" role="listitem">
                     <div dir="ltr" class="ss-item ss-item-required ss-radio">
                         <div class="ss-form-entry">
                         <label class="ss-q-item-label" for="entry_341244083">
                             <div class="ss-q-title">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/drinkit_vs.png" alt="drinkit otsikko" class="img-responsive" width="70%">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/aanestys2/sandybablo_title.png" alt="drinkit otsikko" class="img-responsive center-block" width="37%">
                                 <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
                             </div>
                         </label>
@@ -36,7 +36,7 @@
                                 <label>
                                     <span class="ss-choice-item-control goog-inline-block clearfix">
                                     <input type="radio" name="entry.551993266" value="Sandy" id="group_551993266_1" title="Valitse juoma" role="radio" class="required" aria-label="Sandy" required="true" aria-required="true">
-                                    <img src="<?php the_field('arvonta_kuva_1'); ?>" alt="sandy" class="img-responsive center-block">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/aanestys2/juoma1.png" alt="sandy" class="img-responsive center-block">
                                     </span>
 
                                 </label>
@@ -47,7 +47,7 @@
                             <li class="ss-choice-item">
                                 <label>
                                     <span class="ss-choice-item-control goog-inline-block clearfix">
-                                    <input type="radio" name="entry.551993266" value="Bablo" id="group_551993266_2" title="Valitse juoma" role="radio" class="required" aria-label="Bablo" required="true" aria-required="true"><img src="<?php the_field('arvonta_kuva_2'); ?>" alt="bablo"  class="img-responsive center-block"></span>                                    
+                                    <input type="radio" name="entry.551993266" value="Bablo" id="group_551993266_2" title="Valitse juoma" role="radio" class="required" aria-label="Bablo" required="true" aria-required="true"><img src="<?php echo get_template_directory_uri(); ?>/img/aanestys2/juoma2.png" alt="bablo"  class="img-responsive center-block"></span>                                    
     
                                 </label>
                             </li>

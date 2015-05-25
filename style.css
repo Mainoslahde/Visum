@@ -234,7 +234,7 @@ textarea {
   float: left; }
 
 .kpl {
-  font-size: 25px;
+  font-size: 15px;
   display: block;
   clear: right; }
 
@@ -541,21 +541,19 @@ label input:checked + img {
   background: #F39D00;
   border-radius: 10px; }
 
-/*.ss-choice-item-control {
-    width: 285px;
-    height: 245px;
-    display: block;
-}
+.ss-choice-item-control {
+  width: 285px;
+  height: 245px;
+  display: block; }
 
 .ss-choice-item {
-    float: left;
-}
+  float: left; }
 
 .ss-choices {
-    list-style: none;
-    margin-left: auto;
-    margin-right: auto;
-}*/
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto; }
+
 label.error {
   display: list-item;
   color: #ff0600;
@@ -1483,7 +1481,8 @@ ul.children {
 embed,
 iframe,
 object {
-  max-width: 100%; }
+  max-width: 100%;
+  height: 768px; }
 
 /*--------------------------------------------------------------
 ## Mainos

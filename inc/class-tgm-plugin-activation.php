@@ -326,7 +326,7 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 
                 'oops'                           => __( 'Something went wrong.', 'tgmpa' ),
 
-                'notice_can_install_required'    => _n_noop( 'This theme requires the following plugin: %1$s.', 'This theme requires the following plugins: %1$s.' ), 
+                'notice_can_install_required'    => _n_noop( 'Tämä teema vaatii seuraavat pakolliset lisäosat: %1$s.', 'Tämä teema vaatii seuraavat pakolliset lisäosat: %1$s.' ), 
 
                 'notice_can_install_recommended' => _n_noop( 'Oletko asentamassa Visomia ensimmäistä kertaa? Suosittelemme asentamaan seuraavia lisäosia käytettävyyden parantamiseksi: %1$s.', 'Oletko asentamassa Visomia ensimmäistä kertaa? Suosittelemme asentamaan seuraavia lisäosia käytettävyyden parantamiseksi: %1$s.' ),
  
@@ -346,15 +346,15 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
 
                 'activate_link'                  => _n_noop( 'Aloita lisäosien aktivointi', 'Aloita lisäosien aktivointi' ),
 
-                'return'                         => __( 'Return to Required Plugins Installer', 'tgmpa' ),
+                'return'                         => __( 'Palaa lisäosien asentajaan', 'tgmpa' ),
 
-                'dashboard'                      => __( 'Return to the dashboard', 'tgmpa' ),
+                'dashboard'                      => __( 'Palaa ohjauspaneeliin', 'tgmpa' ),
 
-                'plugin_activated'               => __( 'Plugin activated successfully.', 'tgmpa' ),
+                'plugin_activated'               => __( 'Lisäosa aktivoitiin onnistuneesti.', 'tgmpa' ),
 
-                'activated_successfully'         => __( 'The following plugin was activated successfully:', 'tgmpa' ),
+                'activated_successfully'         => __( 'Seuraava lisäosa asennettiin onnistuneesti:', 'tgmpa' ),
 
-                'complete'                       => __( 'All plugins installed and activated successfully. %1$s', 'tgmpa' ),
+                'complete'                       => __( 'Kaikki lisäosat asennettiin ja aktivoitiin onnistuneesti. %1$s', 'tgmpa' ),
 
                 'dismiss'                        => __( 'Piilota tämä viesti', 'tgmpa' ),
 				

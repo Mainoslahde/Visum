@@ -17,6 +17,16 @@ function visum_customize_register( $wp_customize ) {
     $wp_customize->add_setting( 'font-color', array( 'default' => '#444444', 'sanitize_callback' => 'sanitize_hex_color', )); 
     $wp_customize->add_setting( 'shadow-color', array( 'default' => '#000000', 'sanitize_callback' => 'sanitize_hex_color', )); 
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'font-color', array( 'label' => 'Fontin väri', 'section' => 'colors', 'settings' => 'font-color' )));
+    
+    // Fonts  
+    $wp_customize->add_section(
+        'visom_menubtn',
+        array(
+            'title' => __('Valikko nappi', 'visum' ),  
+            'priority' => 39,
+        )
+    );
+
 }
 add_action( 'customize_register', 'visum_customize_register' );
 

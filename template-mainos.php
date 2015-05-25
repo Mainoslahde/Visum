@@ -14,17 +14,26 @@
             <?php // WP_Query arguments
             $args = array (
                 'post_type'          => 'mainos',
+                'order'              => 'DESC',
+                'orderby'            => 'title',
+                'suppress_filters'   => true
             );
 
             // The Query
-            $query = new WP_Query( $args );
+            $mainos_query = new WP_Query( $args );
 
             // The Loop
-            if ( $query->have_posts() ) {
-                while ( $query->have_posts() ) {
-                    $query->the_post(); ?>
+            if ( $mainos_query->have_posts() ) {
+                while ( $mainos_query->have_posts() ) {
+                    $mainos_query->the_post(); ?>
                     <div class="gallery-cell">
-                        <img src="<?php the_field('mainoskuva'); ?>" class="img-responsive" alt="Esittelyssä"/>
+                       <?php if (get_field('mediatyyppi') == 'kuva') : ?>
+                           <img src="<?php the_field('mainoskuva'); ?>" class="img-responsive" alt="Esittelyssä"/>                    
+                       <?php elseif (get_field('mediatyyppi') == 'video') : ?>
+                           <video id="video" width="100%" height="768" autoplay controls muted loop>
+                               <source src="<?php the_field('html5_video'); ?>" type="video/mp4">
+                           </video>
+                       <?php endif; ?>
                     </div>
               <?php  }
             } else {

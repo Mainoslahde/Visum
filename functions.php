@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Visum functions and definitions
  *
@@ -13,124 +14,120 @@ if ( ! isset( $content_width ) ) {
 }
 
 if ( ! function_exists( 'visum_setup' ) ) :
-/**
- * Sets up theme defaults and registers support for various WordPress features.
- *
- * Note that this function is hooked into the after_setup_theme hook, which
- * runs before the init hook. The init hook is too late for some features, such
- * as indicating support for post thumbnails.
- */
-function visum_setup() {
+    /**
+     * Sets up theme defaults and registers support for various WordPress features.
+     *
+     * Note that this function is hooked into the after_setup_theme hook, which
+     * runs before the init hook. The init hook is too late for some features, such
+     * as indicating support for post thumbnails.
+     */
+    function visum_setup() {
 
-	/*
-	 * Make theme available for translation.
-	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on Visum, use a find and replace
-	 * to change 'visum' to the name of your theme in all the template files
-	 */
-	load_theme_textdomain( 'visum', get_template_directory() . '/languages' );
+        /*
+         * Make theme available for translation.
+         * Translations can be filed in the /languages/ directory.
+         * If you're building a theme based on Visum, use a find and replace
+         * to change 'visum' to the name of your theme in all the template files
+         */
+        load_theme_textdomain( 'visum', get_template_directory() . '/languages' );
 
-	// Add default posts and comments RSS feed links to head.
-	add_theme_support( 'automatic-feed-links' );
+        // Add default posts and comments RSS feed links to head.
+        add_theme_support( 'automatic-feed-links' );
 
-	/*
-	 * Let WordPress manage the document title.
-	 * By adding theme support, we declare that this theme does not use a
-	 * hard-coded <title> tag in the document head, and expect WordPress to
-	 * provide it for us.
-	 */
-	add_theme_support( 'title-tag' );
+        /*
+         * Let WordPress manage the document title.
+         * By adding theme support, we declare that this theme does not use a
+         * hard-coded <title> tag in the document head, and expect WordPress to
+         * provide it for us.
+         */
+        add_theme_support( 'title-tag' );
 
-	/*
-	 * Enable support for Post Thumbnails on posts and pages.
-	 *
-	 * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
-	 */
-	//add_theme_support( 'post-thumbnails' );
+        /*
+         * Enable support for Post Thumbnails on posts and pages.
+         *
+         * @link http://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
+         */
+        //add_theme_support( 'post-thumbnails' );
 
-	/*
-	 * Switch default core markup for search form, comment form, and comments
-	 * to output valid HTML5.
-	 */
-	add_theme_support( 'html5', array(
-		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption',
-	) );
+        /*
+         * Switch default core markup for search form, comment form, and comments
+         * to output valid HTML5.
+         */
+        add_theme_support( 'html5', array(
+            'search-form', 'comment-form', 'comment-list', 'gallery', 'caption',
+        ) );
 
-	/*
-	 * Enable support for Post Formats.
-	 * See http://codex.wordpress.org/Post_Formats
-	 */
-	add_theme_support( 'post-formats', array(
-		'aside', 'image', 'video', 'quote', 'link',
-	) );
+        /*
+         * Enable support for Post Formats.
+         * See http://codex.wordpress.org/Post_Formats
+         */
+        add_theme_support( 'post-formats', array(
+            'aside', 'image', 'video', 'quote', 'link',
+        ) );
 
-	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'visum_custom_background_args', array(
-		'default-color' => 'ffffff',
-		'default-image' => '',
-	) ) );
-     /*
-	 * Enable custom header (menu button)
-	 */
-    $args = array(
-	'width'         => 398,
-	'height'        => 70,
-	'default-image' => get_template_directory_uri() . '/img/valikko-btn.png',
-    );
-    add_theme_support( 'custom-header', $args );
-}
-endif; // visum_setup
-add_action( 'after_setup_theme', 'visum_setup' );
+        // Set up the WordPress core custom background feature.
+        add_theme_support( 'custom-background', apply_filters( 'visum_custom_background_args', array(
+            'default-color' => 'ffffff',
+            'default-image' => '',
+        ) ) );
+         /*
+         * Enable custom header (menu button)
+         */
+        $args = array(
+        'width'         => 398,
+        'height'        => 70,
+        'default-image' => get_template_directory_uri() . '/img/valikko-btn.png',
+        );
+        add_theme_support( 'custom-header', $args );
+    }
+    endif; // visum_setup
+    add_action( 'after_setup_theme', 'visum_setup' );
 
-/**
- * Enqueue scripts and styles.
- */
-function visum_scripts() {
-    
-    wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', false, false );
-    wp_enqueue_style( 'fontawesome-css', get_template_directory_uri() . '/css/font-awesome.min.css', false, false );
-    wp_enqueue_style( 'animate-css', get_template_directory_uri() . '/css/animate.css', false, false );
-    
-	wp_enqueue_style( 'visum-style', get_stylesheet_uri() );
+    /**
+     * Enqueue scripts and styles.
+     */
+    function visum_scripts() {
 
-	wp_enqueue_script( 'visum-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+        wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', false, false );
+        wp_enqueue_style( 'fontawesome-css', get_template_directory_uri() . '/css/font-awesome.min.css', false, false );
+        wp_enqueue_style( 'animate-css', get_template_directory_uri() . '/css/animate.css', false, false );
 
-	wp_enqueue_script( 'visum-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+        wp_enqueue_style( 'visum-style', get_stylesheet_uri() );
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
-}
-add_action( 'wp_enqueue_scripts', 'visum_scripts' );
+        wp_enqueue_script( 'visum-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
-/**
- * Implement the Custom Header feature.
- */
-//require get_template_directory() . '/inc/custom-header.php';
+        wp_enqueue_script( 'visum-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
-/**
- * Custom template tags for this theme.
- */
-require get_template_directory() . '/inc/template-tags.php';
+        if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+            wp_enqueue_script( 'comment-reply' );
+        }
+    }
+    add_action( 'wp_enqueue_scripts', 'visum_scripts' );
 
-/**
- * Custom functions that act independently of the theme templates.
- */
-require get_template_directory() . '/inc/extras.php';
+    /**
+     * Implement the Custom Header feature.
+     */
+    //require get_template_directory() . '/inc/custom-header.php';
 
-/**
- * Customizer additions.
- */
-require get_template_directory() . '/inc/customizer.php';
+    /**
+     * Custom template tags for this theme.
+     */
+    require get_template_directory() . '/inc/template-tags.php';
 
-/**
- * Load Jetpack compatibility file.
- */
-require get_template_directory() . '/inc/jetpack.php';
+    /**
+     * Custom functions that act independently of the theme templates.
+     */
+    require get_template_directory() . '/inc/extras.php';
 
-    define( 'WP_DEBUG', true );
-    remove_filter( 'the_field', 'wpautop' );
-    remove_filter( 'the_excerpt', 'wpautop' );
+    /**
+     * Customizer additions.
+     */
+    require get_template_directory() . '/inc/customizer.php';
+
+    /**
+     * Load Jetpack compatibility file.
+     */
+    require get_template_directory() . '/inc/jetpack.php';
 
 	///////////////////////////////////////
 	// Enqueue jQuery
@@ -218,17 +215,6 @@ require get_template_directory() . '/inc/jetpack.php';
 		wp_enqueue_script( 'custom-script' );  
 	}
 	add_action( 'wp_enqueue_scripts', 'custom_script' ); 	
-
-    ///////////////////////////////////////
-	// Enqueue Animsition Scripts
-	///////////////////////////////////////
-    /*function animsition_script() {  
-		wp_register_script( 'animsition-script', get_template_directory_uri() . '/js/jquery.animsition.min.js',  array( 'jquery' ), '1', true );  
-
-		wp_enqueue_script( 'animsition-script' );  
-	}
-	add_action( 'wp_enqueue_scripts', 'animsition_script' ); */
-
 
 	///////////////////////////////////////
 	// Wordpress Theme Support
@@ -344,25 +330,17 @@ require get_template_directory() . '/inc/jetpack.php';
     // 4. Include ACF
     include_once( get_stylesheet_directory() . '/acf/acf.php' );
 
+    if( function_exists('acf_add_options_page') ) {
+
+        acf_add_options_page('Visom asetukset');
+
+    }
+
     ///////////////////////////////////////
 	// SHORTCODES
 	///////////////////////////////////////
 
-    function hinta_shortcode( $atts ) {
 
-        // Attributes
-        extract( shortcode_atts(
-            array(
-                'kpl' => '',
-                'hinta' => '',
-                'leveys' => '12'
-            ), $atts )
-        );
-
-        // Koodi, minkä shortcode palauttaa
-    return '<div class="hinta-inner col-xs-'.$leveys.'"><span class="kpl">'.$kpl.'</span>'.'<span class="hinta">'.$hinta.'</span></div>';
-    }
-    add_shortcode( 'hinta', 'hinta_shortcode' );
 
     ///////////////////////////////////////
 	// INCLUDES CUSTOM POST TYPES TO RSS FEED
@@ -464,52 +442,6 @@ require get_template_directory() . '/inc/jetpack.php';
     }
 
 	///////////////////////////////////////
-	// Custom taxonomies
-	///////////////////////////////////////
-
-    if ( ! function_exists( 'taytteet_taxonomy' ) ) {
-
-    // Register Custom Taxonomy
-    function taytteet_taxonomy() {
-
-        $labels = array(
-            'name'                       => _x( 'Täytteet', 'Taxonomy General Name', 'visum' ),
-            'singular_name'              => _x( 'Täyte', 'Taxonomy Singular Name', 'visum' ),
-            'menu_name'                  => __( 'Täytteet', 'visum' ),
-            'all_items'                  => __( 'Kaikki täytteet', 'visum' ),
-            'parent_item'                => __( 'Ylä-täyte', 'visum' ),
-            'parent_item_colon'          => __( 'Ylä-täyte:', 'visum' ),
-            'new_item_name'              => __( 'Uusi täyte', 'visum' ),
-            'add_new_item'               => __( 'Lisää uusi täyte', 'visum' ),
-            'edit_item'                  => __( 'Muokkaa täytettä', 'visum' ),
-            'update_item'                => __( 'Päivitä täyte', 'visum' ),
-            'view_item'                  => __( 'Katsele täytettä', 'visum' ),
-            'separate_items_with_commas' => __( 'Erottele täytteet pilkulla', 'visum' ),
-            'add_or_remove_items'        => __( 'Lisää tai poista täytteitä', 'visum' ),
-            'choose_from_most_used'      => __( 'Valitse eniten käytetyistä', 'visum' ),
-            'popular_items'              => __( 'Suosituimmat täytteet', 'visum' ),
-            'search_items'               => __( 'Etsi täytettä', 'visum' ),
-            'not_found'                  => __( 'Ei löydy', 'visum' ),
-        );
-        $args = array(
-            'labels'                     => $labels,
-            'hierarchical'               => false,
-            'public'                     => true,
-            'show_ui'                    => true,
-            'show_admin_column'          => true,
-            'show_in_nav_menus'          => true,
-            'show_tagcloud'              => true,
-        );
-        register_taxonomy( 'tayte', array( 'tuote' ), $args );
-
-    }
-
-    // Hook into the 'init' action
-    add_action( 'init', 'taytteet_taxonomy', 0 );
-
-    }
-
-	///////////////////////////////////////
 	// Simplify UI
 	///////////////////////////////////////
 
@@ -518,9 +450,7 @@ require get_template_directory() . '/inc/jetpack.php';
     		add_action( 'admin_menu', 'my_remove_menu_pages' );
     	}
 	function my_remove_menu_pages() {
-	//remove_menu_page( 'edit.php' ); // Posts
-	//remove_menu_page( 'edit.php?post_type=kokoustilat' ); // Posts
-	//remove_menu_page( 'edit.php?post_type=toimitilat' ); // Posts
+	remove_menu_page( 'edit.php' ); // Posts
 	remove_menu_page( 'admin.php?page=wpcf7' ); // Posts
 	//remove_menu_page( 'upload.php' ); // Media
 	remove_menu_page( 'link-manager.php' ); // Links
@@ -581,7 +511,7 @@ require get_template_directory() . '/inc/jetpack.php';
 	//remove_menu_page( 'plugins.php' ); // Plugins
 	//remove_menu_page( 'themes.php' ); // Appearance
 	//remove_menu_page( 'users.php' ); // Users
-	remove_menu_page( 'tools.php' ); // Tools
+	//remove_menu_page( 'tools.php' ); // Tools
 	remove_menu_page( 'index.php' ); // Tools
 	//remove_menu_page('options-general.php'); // Settings
 	}
@@ -622,7 +552,8 @@ require get_template_directory() . '/inc/jetpack.php';
             remove_meta_box( 'dashboard_activity', 'dashboard', 'normal');//since 3.8
     }
     add_action( 'admin_init', 'remove_dashboard_meta' );
-    remove_action( 'welcome_panel', 'wp_welcome_panel' );
+
+    remove_action( 'welcome_panel', 'wp_welcome_panel' ); // remove welcome panel
 
 	///////////////////////////////////////
 	// Active TGM Plugin (required plugins)
@@ -635,12 +566,6 @@ require get_template_directory() . '/inc/jetpack.php';
 
         $plugins = array(
             // Include plugin from the WordPress Plugin Repository
-
-            array(
-                'name'		=> 'TinyMCE Advanced', // http://wordpress.org/plugins/tinymce-advanced/
-                'slug'		=> 'tinymce-advanced',
-                'required'	=> false
-            ),
 
             array(
                 'name'		=> 'Simple Custom Post Order', // https://wordpress.org/plugins/simple-custom-post-order/
@@ -694,5 +619,8 @@ require get_template_directory() . '/inc/jetpack.php';
         tgmpa( $plugins);
 
     }
+
+
+// add_action( 'all', create_function( '', 'var_dump( current_filter() );' ) );
 
 ?>

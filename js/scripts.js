@@ -6,18 +6,6 @@ jQuery(window).load(
 });  
 
 jQuery(document).ready(function($) {
-	//open the lateral panel
-	$('.cd-btn').on('click', function(event){
-		event.preventDefault();
-		$('.cd-panel').addClass('is-visible');
-	});
-	//clode the lateral panel
-	$('.cd-panel').on('click', function(event){
-		if( $(event.target).is('.cd-panel') || $(event.target).is('.cd-panel-close') ) { 
-			$('.cd-panel').removeClass('is-visible');
-			event.preventDefault();
-		}
-	});
     $('.main-gallery').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -26,4 +14,13 @@ jQuery(document).ready(function($) {
       adaptiveHeight: true,
       arrows: false
     });
+    
+    if ($('#video').length > 0) { // tarkastaa onko #video olemassa
+        // On before slide change
+        $('.main-gallery').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+          $('#video')[0].play();
+        });
+    }
+
 });
+

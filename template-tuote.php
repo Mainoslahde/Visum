@@ -17,12 +17,12 @@
         );
 
         // The Query
-        $query = new WP_Query( $args );
+        $tuote_query = new WP_Query( $args );
 
         // The Loop
-        if ( $query->have_posts() ) {
-            while ( $query->have_posts() ) {
-                $query->the_post(); ?>
+        if ( $tuote_query->have_posts() ) {
+            while ( $tuote_query->have_posts() ) {
+                $tuote_query->the_post(); ?>
                 <section>
                     <div class="content">
                         <div class="col-sm-6 col-xs-12">
