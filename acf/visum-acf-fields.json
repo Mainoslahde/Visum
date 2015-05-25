@@ -1,0 +1,453 @@
+[
+    {
+        "key": "group_554b4a760a638",
+        "title": "Kilpailu",
+        "fields": [
+            {
+                "key": "field_554b4a7cf5fad",
+                "label": "Kuva 1",
+                "name": "arvonta_kuva_1",
+                "prefix": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_554b4a97f5fae",
+                "label": "Kuva 2",
+                "name": "arvonta_kuva_2",
+                "prefix": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "wpgform"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "custom_fields",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ]
+    },
+    {
+        "key": "group_55530a2c5f6fe",
+        "title": "Mainoskuva",
+        "fields": [
+            {
+                "key": "field_55530a2fd6811",
+                "label": "Mainoskuva",
+                "name": "mainoskuva",
+                "prefix": "",
+                "type": "image",
+                "instructions": "1024px leveys 768px korkeus TAI retinan\u00e4ytt\u00f6ihin 2048px leveys 1563px korkeus",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "mainos"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "custom_fields",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ]
+    },
+    {
+        "key": "group_5556f68c31665",
+        "title": "Ohjelma",
+        "fields": [
+            {
+                "key": "field_5556f7065545d",
+                "label": "Ohjelman kuvaus",
+                "name": "ohjelman_kuvaus",
+                "prefix": "",
+                "type": "textarea",
+                "instructions": "Ohjelman kuvaus lyhyesti. T\u00e4h\u00e4n my\u00f6s esim. hinnat \/ ik\u00e4rajoitukset.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "wpautop",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5556f6e85545c",
+                "label": "Ohjelman nimi",
+                "name": "ohjelman_nimi",
+                "prefix": "",
+                "type": "text",
+                "instructions": "Ohjelman nimi \/ otsikko",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Ohjelman nimi t\u00e4h\u00e4n",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5556f6a55545b",
+                "label": "P\u00e4iv\u00e4m\u00e4\u00e4r\u00e4",
+                "name": "paivamaara",
+                "prefix": "",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "d\/m\/Y",
+                "return_format": "yymmdd",
+                "first_day": 1
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "ohjelma_post_type"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "permalink",
+            "the_content",
+            "excerpt",
+            "custom_fields",
+            "discussion",
+            "comments",
+            "revisions",
+            "slug",
+            "author",
+            "format",
+            "page_attributes",
+            "featured_image",
+            "categories",
+            "tags",
+            "send-trackbacks"
+        ]
+    },
+    {
+        "key": "group_5548ff2da6884",
+        "title": "Sidebar",
+        "fields": [
+            {
+                "key": "field_5549d6fb7bcd6",
+                "label": "Margin",
+                "name": "margin-top",
+                "prefix": "",
+                "type": "number",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5548ff36affbd",
+                "label": "Sivupalkki",
+                "name": "sidebar_reminder",
+                "prefix": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "widget",
+                    "operator": "==",
+                    "value": "acf_widget_470"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_5548b0fa2301c",
+        "title": "Tuote",
+        "fields": [
+            {
+                "key": "field_5548a53da03aa",
+                "label": "Tuotekuva",
+                "name": "tuotekuva",
+                "prefix": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "preview_size": "thumbnail",
+                "library": "all",
+                "return_format": "url",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_5548a556a03ab",
+                "label": "Nimen esitt\u00e4minen",
+                "name": "nimen_esittaminen",
+                "prefix": "",
+                "type": "radio",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Teksti": "Teksti",
+                    "Graafinen": "Graafinen"
+                },
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "Teksti",
+                "layout": "horizontal"
+            },
+            {
+                "key": "field_5548a5b6a03ae",
+                "label": "Tuotteen nimi (graafinen)",
+                "name": "tuotteen_nimi_graafinen",
+                "prefix": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5548a556a03ab",
+                            "operator": "==",
+                            "value": "Graafinen"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "preview_size": "medium",
+                "library": "all",
+                "return_format": "url",
+                "min_width": 0,
+                "min_height": 0,
+                "min_size": 0,
+                "max_width": 0,
+                "max_height": 0,
+                "max_size": 0,
+                "mime_types": ""
+            },
+            {
+                "key": "field_5548a58ba03ac",
+                "label": "Tuotteen nimi (teksti)",
+                "name": "tuotteen_nimi",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5548a556a03ab",
+                            "operator": "==",
+                            "value": "Teksti"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "formatting": "html",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "tuote"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    }
+]

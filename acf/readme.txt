@@ -1,7 +1,7 @@
 === Advanced Custom Fields Pro ===
 Contributors: elliotcondon
 Tags: custom, field, custom field, advanced, simple fields, magic fields, more fields, repeater, matrix, post, type, text, textarea, file, image, edit, admin
-Requires at least: 3.5.0
+Requires at least: 3.6.0
 Tested up to: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -106,6 +106,42 @@ http://support.advancedcustomfields.com/
 
 == Changelog ==
 
+= 5.2.5 =
+* Core: Fixed JS error preventing changes to large field groups
+* Language: Added Romanian translation - thanks to Eduard Ungureanu
+
+= 5.2.4 =
+* WYSIWYG field: Fixed bug where new editor is not focused when adding media
+* Core: Added new 'uploader' setting to `acf_form()` options for basic upload inputs
+* Core: Fixed Multisite loop when WordPress MU Domain Mapping plugin is active
+* Core: Improved CSS when editing taxonomy terms and users
+* Core: Fixed validation bugs when clicking save or preview 
+* Core: Added compatibility with WPML translations when field group is not set as a translatable post type
+* Core: Many minor fixes and improvements
+
+= 5.2.3 =
+* Taxonomy field: Added button and popup to create new terms
+* Taxonomy field: Added new 'Create Terms' setting to prevent popup
+* Core: Added network database upgrade admin page and functionality
+* Core: Increased required WP version from 3.5 to 3.6
+* Core: Fixed Select2 dependancy conflict with WooCommerce
+* Core: Fixed WPML bug where field group translation information is lost
+* Core: Fixed conditional logic bug where showing a parent field would override sub field conditional logic
+* Core: Minor fixes and improvements
+* Language: Updated Persian translation - thanks to Kamel
+
+= 5.2.2 =
+* Image field: Fixed UI bug when image has been removed via media library
+* Relationship field: Added new minimum selection setting
+* Select field: Fixed bug when searching for a numeric value
+* Tab field: Fixed conditional logic bug
+* Field group: Added compatibility for custom status in 'Post Status' location rule
+* Core: Added new `show_updates` setting to prevent plugin updates
+* Core: Added compatibility for 3rd party update management websites
+* Core: Added spinner when saving taxonomy term, user and front end form
+* Core: Minor fixes and improvements
+* Language: Updated Slovak translation - thanks to Ján Fajčák
+ 
 = 5.2.1 =
 * Core: Fixed bug where 'Taxonomy' field group location rule would change to 'Post Taxonomy'
 * Core: Fixed bug where field group postboxes would disappear from post edit screen

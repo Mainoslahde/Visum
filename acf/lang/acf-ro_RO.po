@@ -1,157 +1,159 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Advanced Custom Fields PRO 5.2.1\n"
+"Project-Id-Version: Advanced Custom Fields\n"
 "POT-Creation-Date: 2015-03-05 11:15+1000\n"
-"PO-Revision-Date: 2015-03-26 10:20+1000\n"
+"PO-Revision-Date: 2015-05-08 19:11+0200\n"
 "Last-Translator: Elliot Condon <e@elliotcondon.com>\n"
-"Language-Team: wp.sk <michal.vittek@wp.sk, ja@fajo.name>\n"
-"Language: sk\n"
+"Language-Team: Elliot Condon <e@elliotcondon.com>\n"
+"Language: en_AU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.4\n"
+"X-Generator: Poedit 1.7.5\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;esc_html__;"
 "esc_html_e;esc_html_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Basepath: /Users/elliotcondon/Dropbox/Work/Sites/acf5/wp-content/"
+"plugins/advanced-custom-fields-pro\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
 #: acf.php:63
 msgid "Advanced Custom Fields"
-msgstr "Rozšírené vlastné polia"
+msgstr "Câmpuri Personalizate Avansate"
 
 #: acf.php:251
 msgid "Field Groups"
-msgstr "Skupiny polí"
+msgstr "Grupuri de câmpuri"
 
 #: acf.php:252
 msgid "Field Group"
-msgstr "Skupina polí"
+msgstr "Grup de câmp"
 
 #: acf.php:253 acf.php:285 admin/admin.php:56
 #: pro/fields/flexible-content.php:521
 msgid "Add New"
-msgstr "Pridať novú"
+msgstr "Adaungă"
 
 #: acf.php:254
 msgid "Add New Field Group"
-msgstr "Pridať novú skupinu polí "
+msgstr "Adaugă un nou grup de câmpuri"
 
 #: acf.php:255
 msgid "Edit Field Group"
-msgstr "Upraviť skupinu polí "
+msgstr "Editează grupul"
 
 #: acf.php:256
 msgid "New Field Group"
-msgstr "Pridať novú skupinu polí "
+msgstr "Grup de câmp nou"
 
 #: acf.php:257
 msgid "View Field Group"
-msgstr "Zobraziť skupinu polí "
+msgstr "Vizulaizează grupul de câmp"
 
 #: acf.php:258
 msgid "Search Field Groups"
-msgstr "Hľadať skupinu polí "
+msgstr "Caută în grupurile de câmp"
 
 #: acf.php:259
 msgid "No Field Groups found"
-msgstr "Nenašla sa skupina polí "
+msgstr "Nu s-a găsit nici un câmp de grupuri"
 
 #: acf.php:260
 msgid "No Field Groups found in Trash"
-msgstr "V koši sa nenašla skupina polí "
+msgstr "Nu s-a găsit nici un câmp de grupuri în coșul de gunoi"
 
 #: acf.php:283 admin/field-group.php:178 admin/field-group.php:210
 #: admin/field-group.php:249 admin/field-groups.php:487
 msgid "Fields"
-msgstr "Polia "
+msgstr "Câmpuri"
 
 #: acf.php:284
 msgid "Field"
-msgstr "Pole"
+msgstr "Câmp"
 
 #: acf.php:286
 msgid "Add New Field"
-msgstr "Pridať nové pole"
+msgstr "Adaugă un nou câmp"
 
 #: acf.php:287
 msgid "Edit Field"
-msgstr "Upraviť pole"
+msgstr "Editează câmpul"
 
 #: acf.php:288 admin/views/field-group-fields.php:18
 #: admin/views/settings-info.php:109
 msgid "New Field"
-msgstr "Nové pole "
+msgstr "Câmp nou"
 
 #: acf.php:289
 msgid "View Field"
-msgstr "Zobraziť pole"
+msgstr "Vizualizează câmpul"
 
 #: acf.php:290
 msgid "Search Fields"
-msgstr "Hľadať polia"
+msgstr "Caută câmpuri"
 
 #: acf.php:291
 msgid "No Fields found"
-msgstr "Nenašli sa polia"
+msgstr "Nu s-au găsit câmpuri"
 
 #: acf.php:292
 msgid "No Fields found in Trash"
-msgstr "V koši sa nenašli polia"
+msgstr "Nu s-a găsit nici un câmp în coșul de gunoi"
 
 #: admin/admin.php:52 admin/views/field-group-options.php:93
 msgid "Custom Fields"
-msgstr "Vlastné polia "
+msgstr "Câmpuri Personalizate"
 
 #: admin/field-group.php:68 admin/field-group.php:69 admin/field-group.php:71
 msgid "Field group updated."
-msgstr "Skupina polí aktualizovaná. "
+msgstr "Grup actualizat."
 
 #: admin/field-group.php:70
 msgid "Field group deleted."
-msgstr "Skupina polí aktualizovaná. "
+msgstr "Grup șters."
 
 #: admin/field-group.php:73
 msgid "Field group published."
-msgstr "Skupina polí aktualizovaná. "
+msgstr "Grup publicat."
 
 #: admin/field-group.php:74
 msgid "Field group saved."
-msgstr "Skupina polí uložená. "
+msgstr "Grup salvat."
 
 #: admin/field-group.php:75
 msgid "Field group submitted."
-msgstr "Skupina polí odoslaná. "
+msgstr "Grup trimis."
 
 #: admin/field-group.php:76
 msgid "Field group scheduled for."
-msgstr "Skupina polí naplánovaná na. "
+msgstr "Grup programat pentru."
 
 #: admin/field-group.php:77
 msgid "Field group draft updated."
-msgstr "Koncept skupiny polí uložený. "
+msgstr "Ciorna grup actualizat."
 
 #: admin/field-group.php:172
 msgid "Move to trash. Are you sure?"
-msgstr "Presunúť do koša. Naozaj? "
+msgstr "Mută în coșul de gunoi. Ești sigur?"
 
 #: admin/field-group.php:173
 msgid "checked"
-msgstr "zaškrtnuté "
+msgstr "marcat"
 
 #: admin/field-group.php:174
 msgid "No toggle fields available"
-msgstr "Prepínacie polia nenájdené"
+msgstr "Nu sunt câmpuri de comutare disponibile"
 
 #: admin/field-group.php:175
 msgid "Field group title is required"
-msgstr "Nadpis skupiny poľa je povinný "
+msgstr "Titlul grupului este obligatoriu"
 
 #: admin/field-group.php:176 api/api-field-group.php:609
 msgid "copy"
-msgstr "kopírovať "
+msgstr "copie"
 
 #: admin/field-group.php:177
 #: admin/views/field-group-field-conditional-logic.php:67
@@ -159,52 +161,52 @@ msgstr "kopírovať "
 #: admin/views/field-group-locations.php:23
 #: admin/views/field-group-locations.php:131 core/media.php:150
 msgid "or"
-msgstr "alebo"
+msgstr "sau"
 
 #: admin/field-group.php:179
 msgid "Parent fields"
-msgstr "Nadradené polia "
+msgstr "Câpuri parinte"
 
 #: admin/field-group.php:180
 msgid "Sibling fields"
-msgstr "Podobné polia "
+msgstr "Câmpuri copil"
 
 #: admin/field-group.php:181
 msgid "Hide / Show All"
-msgstr "Schovať / Zobraziť všetky "
+msgstr "Selectează / Deselectează tot"
 
 #: admin/field-group.php:182
 msgid "Move Custom Field"
-msgstr "Presunúť pole do inej skupiny "
+msgstr "Mută câmpul personalizat"
 
 #: admin/field-group.php:183
 msgid "This field cannot be moved until its changes have been saved"
-msgstr "Kým nebudú uložené zmeny, pole nemôže byť presunuté"
+msgstr "Acest câmp nu poate fi mutat decât după salvarea modificărilor"
 
 #: admin/field-group.php:184
 msgid "Null"
-msgstr "Nulová hodnota"
+msgstr "Gol"
 
 #: admin/field-group.php:185 core/input.php:128
 msgid "The changes you made will be lost if you navigate away from this page"
-msgstr "Ak odítete zo stránky, zmeny nebudú uložené"
+msgstr "Modificările făcute vor fi pierdute dacă nu salvați"
 
 #: admin/field-group.php:186
 msgid "The string \"field_\" may not be used at the start of a field name"
-msgstr "Reťazec \"field_\" nesmie byť použitý na začiatku názvu poľa"
+msgstr "Textul \"field_\" nu poate fi folosit la începutul denumirii unui câmp"
 
 #: admin/field-group.php:211
 msgid "Location"
-msgstr "Umiestnenie "
+msgstr "Locația"
 
 #: admin/field-group.php:212 pro/api/api-options-page.php:22
 #: pro/api/api-options-page.php:23
 msgid "Options"
-msgstr "Nastavenia "
+msgstr "Opțiuni"
 
 #: admin/field-group.php:253
 msgid "Show Field Keys"
-msgstr "Zobraziť kľúč poľa"
+msgstr "Arată Cheile Câmpului"
 
 #: admin/field-group.php:254
 #: admin/views/field-group-field-conditional-logic.php:40
@@ -215,7 +217,7 @@ msgstr "Zobraziť kľúč poľa"
 #: fields/taxonomy.php:751 fields/user.php:377 fields/user.php:391
 #: fields/wysiwyg.php:384 pro/admin/views/settings-updates.php:93
 msgid "Yes"
-msgstr "Áno "
+msgstr "Da"
 
 #: admin/field-group.php:255
 #: admin/views/field-group-field-conditional-logic.php:41
@@ -226,259 +228,257 @@ msgstr "Áno "
 #: fields/taxonomy.php:752 fields/user.php:378 fields/user.php:392
 #: fields/wysiwyg.php:385 pro/admin/views/settings-updates.php:103
 msgid "No"
-msgstr "Nie"
+msgstr "Nu"
 
 #: admin/field-group.php:642 pro/admin/views/options-page.php:52
 msgid "Publish"
-msgstr "Publikovať "
+msgstr "Publică"
 
 #: admin/field-group.php:643
 msgid "Pending Review"
-msgstr "Recenzia čaká na schválenie "
+msgstr "Așteaptă Revizuirea"
 
 #: admin/field-group.php:644
 msgid "Draft"
-msgstr "Koncept "
+msgstr "Ciornă"
 
 #: admin/field-group.php:645
 msgid "Future"
-msgstr "Budúce "
+msgstr "Viitor"
 
 #: admin/field-group.php:646
 msgid "Private"
-msgstr "Súkromné "
+msgstr "Privat"
 
 #: admin/field-group.php:647
 msgid "Revision"
-msgstr "Revízia "
+msgstr "Revizie"
 
 #: admin/field-group.php:648
 msgid "Trash"
-msgstr "Kôš "
+msgstr "Coșul de gunoi"
 
 #: admin/field-group.php:712
 msgid "Front Page"
-msgstr "Úvodná stránka "
+msgstr "Pagina principală"
 
 #: admin/field-group.php:713
 msgid "Posts Page"
-msgstr "Stránka príspevkov "
+msgstr "Pagina Articolelor"
 
 #: admin/field-group.php:714
 msgid "Top Level Page (no parent)"
-msgstr "Najvyššia úroveň stránok (nemá nadradené stránky) "
+msgstr "Pagina primului nivel (fără părinte)"
 
 #: admin/field-group.php:715
 msgid "Parent Page (has children)"
-msgstr "Nadradená stránka (má odvodené) "
+msgstr "Pagina părinte (are succesori)"
 
 #: admin/field-group.php:716
 msgid "Child Page (has parent)"
-msgstr "Odvodená stránka (má nadradené) "
+msgstr "Pagina Succesor (are părinte)"
 
 #: admin/field-group.php:732
 msgid "Default Template"
-msgstr "Základná šablóna "
+msgstr "Format Implicit"
 
 #: admin/field-group.php:754
 msgid "Logged in"
-msgstr "Typ prihláseného používatela "
+msgstr "Autentifiat"
 
 #: admin/field-group.php:755
 msgid "Viewing front end"
-msgstr "Zobrazenie stránok"
+msgstr "Vezi front-end"
 
 #: admin/field-group.php:756
 msgid "Viewing back end"
-msgstr "Zobrazenie administrácie"
+msgstr "Vezi back-end"
 
 #: admin/field-group.php:775
 msgid "Super Admin"
-msgstr "Super Admin "
+msgstr "Super Admin"
 
 #: admin/field-group.php:786 admin/field-group.php:794
 #: admin/field-group.php:808 admin/field-group.php:815
 #: admin/field-group.php:830 admin/field-group.php:840 fields/file.php:234
 #: fields/image.php:223 pro/fields/gallery.php:656
 msgid "All"
-msgstr "Všetky "
+msgstr "Toate"
 
 #: admin/field-group.php:795
 msgid "Add / Edit"
-msgstr "Pridať/ Upraviť"
+msgstr "Adaugă / Editează"
 
 #: admin/field-group.php:796
 msgid "Register"
-msgstr "Registrovať"
+msgstr "Înregistrează"
 
 #: admin/field-group.php:1027
 msgid "Move Complete."
-msgstr "Presunutie dokončené"
+msgstr "Mutare Completă."
 
 #: admin/field-group.php:1028
 #, php-format
 msgid "The %s field can now be found in the %s field group"
-msgstr "Pole %s teraz nájdete v poli skupiny %s"
+msgstr "Acest %s câmp acum poate fi găsit în %s grupul de câmpuri"
 
 #: admin/field-group.php:1030
 msgid "Close Window"
-msgstr "Zatvoriť okno"
+msgstr "Închide Fereastra"
 
 #: admin/field-group.php:1065
 msgid "Please select the destination for this field"
-msgstr "Vyberte cielové umietnenie poľa"
+msgstr "Selectează destinația pentru acest câmp"
 
 #: admin/field-group.php:1072
 msgid "Move Field"
-msgstr "Presunúť pole"
+msgstr "Mută Câmpul"
 
 #: admin/field-groups.php:109
 #, php-format
 msgid "Field group duplicated. %s"
-msgstr "Skupina polí duplikovaná. %s"
+msgstr "Grupul de câmpuri a fost duplicat. %s"
 
 #: admin/field-groups.php:113
 #, php-format
 msgid "%s field group duplicated."
 msgid_plural "%s field groups duplicated."
-msgstr[0] "%s skupina polí bola duplikovaná."
-msgstr[1] "%s skupiny polí boli duplikované."
-msgstr[2] "%s skupín polí bolo duplikovaných."
+msgstr[0] "%s grupul de câmpuri a fost duplicat."
+msgstr[1] "%s grupurile de câmpuri au fost duplicate."
 
 #: admin/field-groups.php:195
 #, php-format
 msgid "Field group synchronised. %s"
-msgstr "Skupina polí bola synchronizovaná. %s"
+msgstr "Grupul de câmpuri a fost sincronizat. %s"
 
 #: admin/field-groups.php:199
 #, php-format
 msgid "%s field group synchronised."
 msgid_plural "%s field groups synchronised."
-msgstr[0] "%s skupina polí bola synchronizovaná."
-msgstr[1] "%s skupiny polí boli synchronizované."
-msgstr[2] "%s skupín polí bolo synchronizovaných."
+msgstr[0] "%s grupul de câmpuri a fost sincronizat."
+msgstr[1] "%s grupurile de câmpuri au fost sincronizate."
 
 #: admin/field-groups.php:370
 msgid "Sync available"
-msgstr "Dostupná aktualizácia "
+msgstr "Sincronizare disponibilă"
 
 #: admin/field-groups.php:486
 msgid "Title"
-msgstr "Názov"
+msgstr "Titlu"
 
 #: admin/field-groups.php:544 admin/settings-info.php:76
 #: pro/admin/views/settings-updates.php:111
 msgid "Changelog"
-msgstr "Záznam zmien "
+msgstr "Catalog schimbări"
 
 #: admin/field-groups.php:545
 msgid "See what's new in"
-msgstr "Pozrite sa, čo je nové:"
+msgstr "Vezi ce este nou în"
 
 #: admin/field-groups.php:545
 msgid "version"
-msgstr "verzia "
+msgstr "versiunea"
 
 #: admin/field-groups.php:547
 msgid "Resources"
-msgstr "Zdroje "
+msgstr "Resurse"
 
 #: admin/field-groups.php:549
 msgid "Getting Started"
-msgstr "Začíname "
+msgstr "Pentru început"
 
 #: admin/field-groups.php:550 pro/admin/settings-updates.php:51
 #: pro/admin/views/settings-updates.php:17
 msgid "Updates"
-msgstr "Aktualizácie"
+msgstr "Actualizări"
 
 #: admin/field-groups.php:551
 msgid "Field Types"
-msgstr "Typy polí "
+msgstr "Tiurile Câmpului"
 
 #: admin/field-groups.php:552
 msgid "Functions"
-msgstr "Funkcie "
+msgstr "Funcții"
 
 #: admin/field-groups.php:553
 msgid "Actions"
-msgstr "Akcie "
+msgstr "Acțiuni"
 
 #: admin/field-groups.php:554 fields/relationship.php:719
 msgid "Filters"
-msgstr "Filtre "
+msgstr "Filtre"
 
 #: admin/field-groups.php:555
 msgid "'How to' guides"
-msgstr "Návody \"Ako na to\" "
+msgstr "Ghiduri 'Cum să...'"
 
 #: admin/field-groups.php:556
 msgid "Tutorials"
-msgstr "Návody "
+msgstr "Tutoriale"
 
 #: admin/field-groups.php:561
 msgid "Created by"
-msgstr "Vytvoril "
+msgstr "Creat de"
 
 #: admin/field-groups.php:596
 msgid "Duplicate this item"
-msgstr "Duplikovať toto pole "
+msgstr "Copiază acest item"
 
 #: admin/field-groups.php:596 admin/field-groups.php:605
 #: admin/views/field-group-field.php:55 pro/fields/flexible-content.php:520
 msgid "Duplicate"
-msgstr "Duplikovať "
+msgstr "Copiază"
 
 #: admin/field-groups.php:635
 #, php-format
 msgid "Select %s"
-msgstr "Vybrať %s"
+msgstr "Selectează %s"
 
 #: admin/field-groups.php:641
 msgid "Synchronise field group"
-msgstr "Zobraziť túto skupinu poľa, ak"
+msgstr "Sincronizare grup de câmpuri"
 
 #: admin/field-groups.php:641 admin/field-groups.php:656
 msgid "Sync"
-msgstr "Synchronizácia"
+msgstr "Sincronizare"
 
 #: admin/settings-addons.php:51 admin/views/settings-addons.php:9
 msgid "Add-ons"
-msgstr "Doplnky "
+msgstr "Suplimente"
 
 #: admin/settings-addons.php:87
 msgid "<b>Error</b>. Could not load add-ons list"
-msgstr "<b>Chyba</b>. Nie je možné načítať zoznam doplnkov"
+msgstr "<b>Eroare</b>. Lista de suplimente nu poate fi încărcată"
 
 #: admin/settings-export.php:54 admin/views/settings-export-generate.php:9
 #: admin/views/settings-export.php:3
 msgid "Import / Export"
-msgstr "Import / Export"
+msgstr "Importă / Exportă"
 
 #: admin/settings-export.php:147 admin/settings-export.php:361
 msgid "No field groups selected"
-msgstr "Nezvolili ste skupiny poľa "
+msgstr "Nu a fost selectat nici un grup de câmpuri"
 
 #: admin/settings-export.php:184
 msgid "No file selected"
-msgstr "Nevybrali ste súbor "
+msgstr "Nu a fost selectat nici un fișier"
 
 #: admin/settings-export.php:197
 msgid "Error uploading file. Please try again"
-msgstr "Chyba pri nahrávaní súbora. Prosím skúste to znova"
+msgstr "Eroare la încărcarea fișierului. Încearcă din nou"
 
 #: admin/settings-export.php:206
 msgid "Incorrect file type"
-msgstr "Typ nahraného súboru nie je povolený "
+msgstr "Tipul fișierului este incorect"
 
 #: admin/settings-export.php:223
 msgid "Import file empty"
-msgstr "Nahraný súbor bol prázdny"
+msgstr "Fișierul import este gol"
 
 #: admin/settings-export.php:319
 #, php-format
 msgid "<b>Success</b>. Import tool added %s field groups: %s"
-msgstr "<b>Úspech</b>. Nástroj importu pridal %s skupiny polí: %s"
+msgstr "<b>Suces</b>. Unealta import a adaugat %s grupuri de câmpuri: %s"
 
 #: admin/settings-export.php:328
 #, php-format
@@ -486,410 +486,415 @@ msgid ""
 "<b>Warning</b>. Import tool detected %s field groups already exist and have "
 "been ignored: %s"
 msgstr ""
-"<b>Varovanie</b>. Nástroj importu zistil, že už exsituje %s polí skupín, "
-"ktoré boli ignorované: %s"
+"<b>Atenție</b>. Unealta import a detectat %s grupuri de câmpuri care exista "
+"deja și a ignorat: %s"
 
 #: admin/settings-info.php:50
 msgid "Info"
-msgstr "Info"
+msgstr "Informații"
 
 #: admin/settings-info.php:75
 msgid "What's New"
-msgstr "Čo je nové "
+msgstr "Ce este nou"
 
 #: admin/update.php:131
 msgid "Upgrade"
-msgstr "Aktualizovať "
+msgstr "Îmbunătățire"
 
 #: admin/views/field-group-field-conditional-logic.php:29
 msgid "Conditional Logic"
-msgstr "Podmienená logika "
+msgstr "Condiție Logică"
 
 #: admin/views/field-group-field-conditional-logic.php:65
 msgid "Show this field if"
-msgstr "Zobraziť toto pole ak"
+msgstr "Arată acest câmp dacă"
 
 #: admin/views/field-group-field-conditional-logic.php:111
 #: admin/views/field-group-locations.php:88
 msgid "is equal to"
-msgstr "sa rovná "
+msgstr "este egal cu"
 
 #: admin/views/field-group-field-conditional-logic.php:112
 #: admin/views/field-group-locations.php:89
 msgid "is not equal to"
-msgstr "sa nerovná"
+msgstr "nu este egal cu"
 
 #: admin/views/field-group-field-conditional-logic.php:149
 #: admin/views/field-group-locations.php:118
 msgid "and"
-msgstr "a"
+msgstr "și"
 
 #: admin/views/field-group-field-conditional-logic.php:164
 #: admin/views/field-group-locations.php:133
 msgid "Add rule group"
-msgstr "Pridať skupinu pravidiel "
+msgstr "Adaugă grup de reguli"
 
 #: admin/views/field-group-field.php:51 admin/views/field-group-field.php:54
 msgid "Edit field"
-msgstr "Upraviť pole"
+msgstr "Editează câmp"
 
 #: admin/views/field-group-field.php:54 pro/fields/gallery.php:356
 msgid "Edit"
-msgstr "Upraviť"
+msgstr "Editeză"
 
 #: admin/views/field-group-field.php:55
 msgid "Duplicate field"
-msgstr "Duplikovať pole"
+msgstr "Copiază câmp"
 
 #: admin/views/field-group-field.php:56
 msgid "Move field to another group"
-msgstr "Presunúť pole do inej skupiny"
+msgstr "Mută acest câmp în alt grup"
 
 #: admin/views/field-group-field.php:56
 msgid "Move"
-msgstr "Presunúť"
+msgstr "Mută"
 
 #: admin/views/field-group-field.php:57
 msgid "Delete field"
-msgstr "Vymazať pole"
+msgstr "Șterge câmp"
 
 #: admin/views/field-group-field.php:57 pro/fields/flexible-content.php:519
 msgid "Delete"
-msgstr "Vymazať"
+msgstr "Șterge"
 
 #: admin/views/field-group-field.php:65 fields/oembed.php:214
 msgid "Error"
-msgstr "Chyba "
+msgstr "Eroare"
 
 #: admin/views/field-group-field.php:65
 msgid "Field type does not exist"
-msgstr "Typ poľa neexistuje "
+msgstr "Tipul câmpului nu există"
 
 #: admin/views/field-group-field.php:78
 msgid "Field Label"
-msgstr "Označenie poľa "
+msgstr "Etichetă Câmp"
 
 #: admin/views/field-group-field.php:79
 msgid "This is the name which will appear on the EDIT page"
-msgstr "Toto je meno, ktoré sa zobrazí na stránke úprav "
+msgstr "Acesta este numele care va apărea în pagina de editare"
 
 #: admin/views/field-group-field.php:90
 msgid "Field Name"
-msgstr "Meno poľa "
+msgstr "Nume Câmp"
 
 #: admin/views/field-group-field.php:91
 msgid "Single word, no spaces. Underscores and dashes allowed"
-msgstr "Jedno slovo, žiadne medzery. Podčiarknutie a pomlčky sú povolené "
+msgstr ""
+"Un singur cuvânt, fără spații. Caracterele _ (underscore) și - (minus) sunt "
+"permise"
 
 #: admin/views/field-group-field.php:102 fields/taxonomy.php:726
 msgid "Field Type"
-msgstr "Typ poľa"
+msgstr "Tipul Câmpului"
 
 #: admin/views/field-group-field.php:115 fields/tab.php:109
 msgid "Instructions"
-msgstr "Pokyny "
+msgstr "Instrucțiuni"
 
 #: admin/views/field-group-field.php:116
 msgid "Instructions for authors. Shown when submitting data"
-msgstr "Pokyny pre autorov. Zobrazia sa pri zadávaní dát "
+msgstr "Instrucțiuni pentru autor. Sunt afișate când se adaugă valori"
 
 #: admin/views/field-group-field.php:127
 msgid "Required?"
-msgstr "Povinné? "
+msgstr "Obligatoriu?"
 
 #: admin/views/field-group-field.php:151
 msgid "Wrapper Attributes"
-msgstr "Hodnoty bloku polí v administrácii"
+msgstr "Atributele Wrapper-ului"
 
 #: admin/views/field-group-field.php:157
 msgid "width"
-msgstr "Šírka"
+msgstr "lățime"
 
 #: admin/views/field-group-field.php:171
 msgid "class"
-msgstr "trieda"
+msgstr "clasă"
 
 #: admin/views/field-group-field.php:184
 msgid "id"
-msgstr "id "
+msgstr "id"
 
 #: admin/views/field-group-field.php:196
 msgid "Close Field"
-msgstr "Zavrieť pole "
+msgstr "Închide Câmpul"
 
 #: admin/views/field-group-fields.php:29
 msgid "Order"
-msgstr "Poradie"
+msgstr "Ordine"
 
 #: admin/views/field-group-fields.php:30 pro/fields/flexible-content.php:545
 msgid "Label"
-msgstr "Označenie "
+msgstr "Etichetă"
 
 #: admin/views/field-group-fields.php:31 pro/fields/flexible-content.php:558
 msgid "Name"
-msgstr "Meno"
+msgstr "Nume"
 
 #: admin/views/field-group-fields.php:32
 msgid "Type"
-msgstr "Typ"
+msgstr "Tip"
 
 #: admin/views/field-group-fields.php:44
 msgid ""
 "No fields. Click the <strong>+ Add Field</strong> button to create your "
 "first field."
 msgstr ""
-"Žiadne polia. Kliknite na tlačidlo <strong>+ Pridať pole</strong> pre "
-"vytvorenie prvého poľa. "
+"Nici un câmp. Click pe butonul <strong>+ Adaugă Câmp</strong> pentru a crea "
+"primul câmp."
 
 #: admin/views/field-group-fields.php:51
 msgid "Drag and drop to reorder"
-msgstr "Zmeňte poradie pomocou funkcie ťahaj a pusť"
+msgstr "Trage și eliberează pentru a ordona"
 
 #: admin/views/field-group-fields.php:54
 msgid "+ Add Field"
-msgstr "+ Pridať pole "
+msgstr "+ Adaugă Câmp"
 
 #: admin/views/field-group-locations.php:5
 msgid "Rules"
-msgstr "Pravidlá "
+msgstr "Reguli"
 
 #: admin/views/field-group-locations.php:6
 msgid ""
 "Create a set of rules to determine which edit screens will use these "
 "advanced custom fields"
 msgstr ""
-"Vytvorte súbor pravidiel určujúcich, ktoré obrazovky úprav budú používať "
-"Vlastné polia"
+"Crează un set de reguli pentru a determina unde vor fi afișate aceste "
+"câmpuri avansate personalizate"
 
 #: admin/views/field-group-locations.php:21
 msgid "Show this field group if"
-msgstr "Zobraziť túto skupinu poľa ak "
+msgstr "Arată acest grup de câmpuri dacă"
 
 #: admin/views/field-group-locations.php:41
 #: admin/views/field-group-locations.php:47
 msgid "Post"
-msgstr "Príspevok "
+msgstr "Articol"
 
 #: admin/views/field-group-locations.php:42 fields/relationship.php:725
 msgid "Post Type"
-msgstr "Typ príspevku "
+msgstr "Tipul Articolului"
 
 #: admin/views/field-group-locations.php:43
 msgid "Post Status"
-msgstr "Stav príspevku "
+msgstr "Starea Articolui"
 
 #: admin/views/field-group-locations.php:44
 msgid "Post Format"
-msgstr "Formát príspevku "
+msgstr "Formatul Articolului"
 
 #: admin/views/field-group-locations.php:45
 msgid "Post Category"
-msgstr "Kategória príspevku "
+msgstr "Categoria Articolului"
 
 #: admin/views/field-group-locations.php:46
 msgid "Post Taxonomy"
-msgstr "Taxonómia príspevku "
+msgstr "Taxonomia Articolului"
 
 #: admin/views/field-group-locations.php:49
 #: admin/views/field-group-locations.php:53
 msgid "Page"
-msgstr "Stránka "
+msgstr "Pagina"
 
 #: admin/views/field-group-locations.php:50
 msgid "Page Template"
-msgstr "Šablóna stránky "
+msgstr "Macheta Pagini"
 
 #: admin/views/field-group-locations.php:51
 msgid "Page Type"
-msgstr "Typ stránky "
+msgstr "Tipul Pagini"
 
 #: admin/views/field-group-locations.php:52
 msgid "Page Parent"
-msgstr "Nadradená stránka "
+msgstr "Pagina Părinte"
 
 #: admin/views/field-group-locations.php:55 fields/user.php:36
 msgid "User"
-msgstr "Používateľ "
+msgstr "Utilizatorul"
 
 #: admin/views/field-group-locations.php:56
 msgid "Current User"
-msgstr "Aktuálny používateľ"
+msgstr "Utilizatorul Curent"
 
 #: admin/views/field-group-locations.php:57
 msgid "Current User Role"
-msgstr "Aktuálne oprávnenia"
+msgstr "Rolul Utilizatorului Curent"
 
 #: admin/views/field-group-locations.php:58
 msgid "User Form"
-msgstr "Formulár používatela"
+msgstr "Formularul Utilizatorului"
 
 #: admin/views/field-group-locations.php:59
 msgid "User Role"
-msgstr "Oprávnenia "
+msgstr "Rolul Utilizatorului"
 
 #: admin/views/field-group-locations.php:61 pro/admin/options-page.php:55
 msgid "Forms"
-msgstr "Formuláre"
+msgstr "Formulare"
 
 #: admin/views/field-group-locations.php:62
 msgid "Attachment"
-msgstr "Príloha "
+msgstr "Atașament"
 
 #: admin/views/field-group-locations.php:63
 msgid "Taxonomy Term"
-msgstr "Výraz taxonómie "
+msgstr "Termenul Taxonomiei"
 
 #: admin/views/field-group-locations.php:64
 msgid "Comment"
-msgstr "Komentár"
+msgstr "Comentariu"
 
 #: admin/views/field-group-locations.php:65
 msgid "Widget"
-msgstr "Widget"
+msgstr "Piesă"
 
 #: admin/views/field-group-options.php:10
 msgid "Order No."
-msgstr "Poradové číslo"
+msgstr "Nr. crt."
 
 #: admin/views/field-group-options.php:11
 msgid "Field groups are created in order from lowest to highest"
-msgstr "Skupiny polí sú vytvorené v poradí <br /> od najnižšej po najvyššiu "
+msgstr "Grupurile de câmpuri sunt create în ordine crescătoare"
 
 #: admin/views/field-group-options.php:21
 msgid "Position"
-msgstr "Pozícia "
+msgstr "Poziție"
 
 #: admin/views/field-group-options.php:28
 msgid "High (after title)"
-msgstr "Hore (pod nadpisom) "
+msgstr "Mare (după titlul aricolului / paginii)"
 
 #: admin/views/field-group-options.php:29
 msgid "Normal (after content)"
-msgstr "Normálne (po obsahu) "
+msgstr "Normal (dupa conținutul articolului / paginii)"
 
 #: admin/views/field-group-options.php:30
 msgid "Side"
-msgstr "Strana "
+msgstr "Lateral"
 
 #: admin/views/field-group-options.php:38
 msgid "Style"
-msgstr "Štýl "
+msgstr "Stil"
 
 #: admin/views/field-group-options.php:45
 msgid "Standard (WP metabox)"
-msgstr "Štandardný metabox "
+msgstr "Standard (asemănător WP, folosește metabox-uri)"
 
 #: admin/views/field-group-options.php:46
 msgid "Seamless (no metabox)"
-msgstr "Žiadny metabox "
+msgstr "Seamless (fără metabox-uri)"
 
 #: admin/views/field-group-options.php:53
 msgid "Label placement"
-msgstr "Umiestnenie inštrukcií "
+msgstr "Poziționarea etichetei"
 
 #: admin/views/field-group-options.php:60 fields/tab.php:125
 msgid "Top aligned"
-msgstr "Zarovnané dohora"
+msgstr "Aliniere Sus"
 
 #: admin/views/field-group-options.php:61 fields/tab.php:126
 msgid "Left Aligned"
-msgstr "Zarovnané vľavo"
+msgstr "Aliniere Stanga"
 
 #: admin/views/field-group-options.php:68
 msgid "Instruction placement"
-msgstr "Umiestnenie inštrukcií"
+msgstr "Plasamentul instrucțiunilor"
 
 #: admin/views/field-group-options.php:75
 msgid "Below labels"
-msgstr "Pod označením"
+msgstr "Sub etichete"
 
 #: admin/views/field-group-options.php:76
 msgid "Below fields"
-msgstr "Pod poliami"
+msgstr "Sub câmpuri"
 
 #: admin/views/field-group-options.php:83
 msgid "Hide on screen"
-msgstr "Schovať na obrazovke "
+msgstr "Ascunde pe ecran"
 
 #: admin/views/field-group-options.php:84
 msgid "<b>Select</b> items to <b>hide</b> them from the edit screen."
-msgstr "<b>Vybrať</b> položky pre ich <b>skrytie</b> pred obrazovkou úprav."
+msgstr ""
+"<b>Selectează</b> ce opțiuni să fie <b>ascune</b> din ecranul de editare al "
+"articolului sau al paginii."
 
 #: admin/views/field-group-options.php:84
 msgid ""
 "If multiple field groups appear on an edit screen, the first field group's "
 "options will be used (the one with the lowest order number)"
 msgstr ""
-"Ak viaceré skupiny polí sa zobrazia na obrazovke úprav, nastavenia prvej "
-"skupiny budú použité (tá s najnižším poradovým číslom)"
+"Daca în ecranul de editare al articolului / paginii apar mai multiple "
+"grupuri de câmpuri, atunci opțiunile primul grup de câmpuri vor fi folosite "
+"(cel cu numărul de ordine cel mai mic)"
 
 #: admin/views/field-group-options.php:90
 msgid "Permalink"
-msgstr "Trvalý odkaz"
+msgstr "Legătură permanentă"
 
 #: admin/views/field-group-options.php:91
 msgid "Content Editor"
-msgstr "Úpravca obsahu"
+msgstr "Editorul de conținut"
 
 #: admin/views/field-group-options.php:92
 msgid "Excerpt"
-msgstr "Zhrnutie "
+msgstr "Descriere scurtă"
 
 #: admin/views/field-group-options.php:94
 msgid "Discussion"
-msgstr "Diskusia "
+msgstr "Discuții"
 
 #: admin/views/field-group-options.php:95
 msgid "Comments"
-msgstr "Komentáre "
+msgstr "Comentarii"
 
 #: admin/views/field-group-options.php:96
 msgid "Revisions"
-msgstr "Revízie "
+msgstr "Revizii"
 
 #: admin/views/field-group-options.php:97
 msgid "Slug"
-msgstr "Slug "
+msgstr "Slug"
 
 #: admin/views/field-group-options.php:98
 msgid "Author"
-msgstr "Autor "
+msgstr "Autor"
 
 #: admin/views/field-group-options.php:99
 msgid "Format"
-msgstr "Formát "
+msgstr "Format"
 
 #: admin/views/field-group-options.php:100
 msgid "Page Attributes"
-msgstr "Vlastnosti stránky"
+msgstr "Atributele Paginii"
 
 #: admin/views/field-group-options.php:101 fields/relationship.php:738
 msgid "Featured Image"
-msgstr "Prezentačný obrázok "
+msgstr "Imagine Reprezentativă"
 
 #: admin/views/field-group-options.php:102
 msgid "Categories"
-msgstr "Kategórie "
+msgstr "Categorii"
 
 #: admin/views/field-group-options.php:103
 msgid "Tags"
-msgstr "Značky "
+msgstr "Etichete"
 
 #: admin/views/field-group-options.php:104
 msgid "Send Trackbacks"
-msgstr "Odoslať spätné odkazy "
+msgstr "Trackback-uri"
 
 #: admin/views/settings-addons.php:23
 msgid "Download & Install"
-msgstr "Stiahnuť a nainštalovať"
+msgstr "Descarcă & Instalează"
 
 #: admin/views/settings-addons.php:42
 msgid "Installed"
-msgstr "Nainštalované "
+msgstr "Instalat"
 
 #: admin/views/settings-export-generate.php:13
 msgid "Export Field Groups to PHP"
-msgstr "Export skupiny poľa do PHP "
+msgstr "Exportă Grupurile de Câmpuri în PHP"
 
 #: admin/views/settings-export-generate.php:17
 msgid ""
@@ -899,14 +904,16 @@ msgid ""
 "the following code to your theme's functions.php file or include it within "
 "an external file."
 msgstr ""
-"Nasledujúci kód môže byť použitý pre miestnu veru vybraných polí skupín. "
-"Lokálna skupina polí poskytuje rýchlejšie načítanie, lepšiu kontrolu verzií "
-"a dynamické polia a ich nastavenia. Jednoducho skopírujte nasledujúci kód do "
-"súboru funkcií vašej témy functions.php alebo ich zahrňte v externom súbore."
+"Următorul bloc de cod poate fi folosit pentru a înregistra o copie locală a "
+"grupului(lor) de câmpuri selectat(e). Un grup de câmpuri local poate "
+"facilita multe beneficii cum ar fi un timp de încărcare mai mic, control al "
+"versiunii și câmpuri / setări dinamice. Pentru a beneficia de toate acestea "
+"nu trebuie decât să copiați și să inserați următorul bloc de cod în fișierul "
+"functions.php al temei sau să-l includeți într-un fișier extern."
 
 #: admin/views/settings-export.php:7
 msgid "Export Field Groups"
-msgstr "Export skupín polí "
+msgstr "Exportați Grupurile de Câmputri"
 
 #: admin/views/settings-export.php:10
 msgid ""
@@ -915,50 +922,51 @@ msgid ""
 "import to another ACF installation. Use the generate button to export to PHP "
 "code which you can place in your theme."
 msgstr ""
-"Vyberte skupiny polí, ktoré chcete exportovať. Vyberte vhodnú metódu "
-"exportu. Tlačidlo Stiahnuť vám exportuje dáta do .json súboru. Tento súbor "
-"môžete použiť v inej ACF inštalácii. Tlačidlo Generovať vám vyvtorí PHP kód, "
-"ktorý použijete vo vašej téme."
+"Selectați grupurile de câmpuri pe care doriți să le exportați și apoi "
+"selectați metoda de export. Folosiți butonul de descărcare pentru a exporta "
+"într-un fișier .json pe care apoi îl puteți folosi pentru a importa într-o "
+"altă instalare a ACF. Folosiți butonul Generare pentru a exporta totul în "
+"cod PHP, pe care îl puteți pune apoi in tema voastră."
 
 #: admin/views/settings-export.php:20
 msgid "Select Field Groups"
-msgstr "Vyberte skupiny poľa na export "
+msgstr "Selectați Grupurile de Câmpuri"
 
 #: admin/views/settings-export.php:55
 msgid "Download export file"
-msgstr "Stiahnuť súbor na export"
+msgstr "Descarcă fișierul de export"
 
 #: admin/views/settings-export.php:56
 msgid "Generate export code"
-msgstr "Vytvoriť exportný kód"
+msgstr "Generează codul de export"
 
 #: admin/views/settings-export.php:69
 msgid "Toggle All"
-msgstr "Prepnúť všetky"
+msgstr "Comută tot"
 
 #: admin/views/settings-export.php:93
 msgid "Import Field Groups"
-msgstr "Importovať skupiny poľa"
+msgstr "Importă Grupurile de câmpuri"
 
 #: admin/views/settings-export.php:96
 msgid ""
 "Select the Advanced Custom Fields JSON file you would like to import. When "
 "you click the import button below, ACF will import the field groups."
 msgstr ""
-"Vyberte JSON súbor ACF na import. Po kliknutí na tlačidlo import sa nahrajú "
-"všetky skupiny polí ACF."
+"Alege fișierul JSON ACF pe care dorești să-l imporți. Când vei apăsa butonul "
+"import de mai jos, ACF v-a importa toate grupurile de câmpuri."
 
 #: admin/views/settings-export.php:106 fields/file.php:46
 msgid "Select File"
-msgstr "Vybrať subor "
+msgstr "Selectează fișierul"
 
 #: admin/views/settings-export.php:115
 msgid "Import"
-msgstr "Import "
+msgstr "Importă"
 
 #: admin/views/settings-info.php:9
 msgid "Welcome to Advanced Custom Fields"
-msgstr "Víta vás Advanced Custom Fields "
+msgstr "Bine ai venit la Câmpuri Personalizate Avansate"
 
 #: admin/views/settings-info.php:10
 #, php-format
@@ -966,16 +974,16 @@ msgid ""
 "Thank you for updating! ACF %s is bigger and better than ever before. We "
 "hope you like it."
 msgstr ""
-"Vďaka za zakutalizáciu! ACF %s je väčšie a lepšie než kedykoľvek predtým. "
-"Dúfame, že sa vám páči."
+"Iți mulțumim pentru actualizare! ACF %s  a devenit mai mare și mai bun. "
+"Sperăm să-ți placă."
 
 #: admin/views/settings-info.php:25
 msgid "A smoother custom field experience"
-msgstr "Jednoduchšie používanie polí"
+msgstr "O folosire mai ușoara a câmpurilor personalizate."
 
 #: admin/views/settings-info.php:30
 msgid "Improved Usability"
-msgstr "Vylepšená použiteľnosť"
+msgstr "Folosire Facilă"
 
 #: admin/views/settings-info.php:31
 msgid ""
@@ -983,12 +991,13 @@ msgid ""
 "across a number of field types including post object, page link, taxonomy "
 "and select."
 msgstr ""
-"Populárna knižnica Select2 obsahuje vylepšenú použiteľnosť a rýchlosť medzi "
-"všetkými poliami  vrátane objektov, odkazov taxonómie a výberov."
+"Includerea popularei librării Select2 a îmbunătățit folosirea dar și viteaza "
+"pentru un număr ridicat de tipuri de câmpuri care includ, obiectele articol, "
+"legătura paginii, taxonomia și selecția. "
 
 #: admin/views/settings-info.php:35
 msgid "Improved Design"
-msgstr "Vylepšený dizajn"
+msgstr "Design îmbunătățit"
 
 #: admin/views/settings-info.php:36
 msgid ""
@@ -996,12 +1005,13 @@ msgid ""
 "ever! Noticeable changes are seen on the gallery, relationship and oEmbed "
 "(new) fields!"
 msgstr ""
-"Vela polí prebehlo grafickou úpravou. Teraz ACF vyzerá oveľa lepšie!  Zmeny "
-"uvidíte v galérii, vzťahoch a OEmbed (vložených) poliach!"
+"Multe câmpuri au dobândit un nou design vizual pentru a face ACF un produs "
+"mai ușor de folosit! Schimbările pot fi văzute în special, la câmpurile "
+"Galerie, Relații și oEmbed(nou)!"
 
 #: admin/views/settings-info.php:40
 msgid "Improved Data"
-msgstr "Vylepšené dáta"
+msgstr "Tipuri de Date imbunătățite"
 
 #: admin/views/settings-info.php:41
 msgid ""
@@ -1009,22 +1019,22 @@ msgid ""
 "independently from their parents. This allows you to drag and drop fields in "
 "and out of parent fields!"
 msgstr ""
-"Zmena dátovej architektúry priniesla nezávislosť odvodených polí od "
-"nadradených. Toto vám dovoľuje prenášat polia mimo nadradených polí!"
+"Refacerea arhitecturii tipurilor de date a permis ca sub câmpurile să fie "
+"independente de câmpurile părinte. Acest lucru vă permite să trageți și să "
+"eliberați câmpurile în și în afara câmpurilor părinte!"
 
 #: admin/views/settings-info.php:47
 msgid "Goodbye Add-ons. Hello PRO"
-msgstr "Dovidenia doplnky. Vitaj PRO"
+msgstr "La revedere Add-onuri. Salut PRO"
 
 #: admin/views/settings-info.php:52
 msgid "Introducing ACF PRO"
-msgstr "Pro verzia "
+msgstr "Introducere în ACF PRO"
 
 #: admin/views/settings-info.php:53
 msgid ""
 "We're changing the way premium functionality is delivered in an exciting way!"
-msgstr ""
-"Prémiové funkcie modulu sme sa rozhodli poskytnúť vzrušujúcejším spôsobom!"
+msgstr "Am schimbat modul în care funcționalitatea premium este transmisă!"
 
 #: admin/views/settings-info.php:54
 #, php-format
@@ -1033,13 +1043,13 @@ msgid ""
 "version of ACF</a>. With both personal and developer licenses available, "
 "premium functionality is more affordable and accessible than ever before!"
 msgstr ""
-"Všetky prémiové doplnky boli spojené do <a href=\"%s\">Pro verzie ACF</a>. "
-"Prémiové funkcie sú dostupnejšie a prístupnejšie aj pomocou personálnych a "
-"firemmných licencií!"
+"Toate cele 4 add-onuri premium au fost combinate într-o nouă <a href=\"%s"
+"\">Versiune PRO a ACF</a>. Putând alege licența personală sau licența de "
+"developer, funcționalitatea premium este acum mai accesibilă ca niciodată!"
 
 #: admin/views/settings-info.php:58
 msgid "Powerful Features"
-msgstr "Výkonné funkcie"
+msgstr "Caracteristici puternice"
 
 #: admin/views/settings-info.php:59
 msgid ""
@@ -1047,17 +1057,18 @@ msgid ""
 "layouts, a beautiful gallery field and the ability to create extra admin "
 "options pages!"
 msgstr ""
-"ACF PRO obsahuje opakovanie zadaných dát, flexibilné rozloženie obsahu, "
-"prekrásnu galériu a extra administračné stránky!"
+"ACF PRO conține caracteristici puternice cum ar fi date repetabile, machete "
+"de conținut flexibil, un frumos câmp pentru galerie și puterea de a crea "
+"pagini administrative de opțiuni!"
 
 #: admin/views/settings-info.php:60
 #, php-format
 msgid "Read more about <a href=\"%s\">ACF PRO features</a>."
-msgstr "Prečítajte si viac o <a href=\"%s\">vlastnostiach ACF PRO</a>."
+msgstr "Citește mai mult despre <a href=\"%s\">Caracteristicile ACF PRO</a>."
 
 #: admin/views/settings-info.php:64
 msgid "Easy Upgrading"
-msgstr "Ľahká aktualizácia"
+msgstr "Actualizare ușoară"
 
 #: admin/views/settings-info.php:65
 #, php-format
@@ -1065,8 +1076,8 @@ msgid ""
 "To help make upgrading easy, <a href=\"%s\">login to your store account</a> "
 "and claim a free copy of ACF PRO!"
 msgstr ""
-"Pre uľahčenie aktualizácie, <a href=\"%s\">prihláste sa do obchodu</a> a "
-"získajte zdarma ACF PRO!"
+"Pentru a facilita actualizarea într-un mod ușor, <a href=\"%s\">intră în "
+"contul tău</a> și obține o copie gratis a ACF PRO!"
 
 #: admin/views/settings-info.php:66
 #, php-format
@@ -1075,159 +1086,171 @@ msgid ""
 "but if you do have one, please contact our support team via the <a href=\"%s"
 "\">help desk</a>"
 msgstr ""
-"Napísali sme <a href=\"%s\">príručku k aktualizácii</a>. Zodpovedali sme "
-"väčšinu otázok, ak však máte nejaké ďaľšie kontaktuje <a href=\"%s\">našu "
-"podporu</a>"
+"De asemenea am pus la dispoziția ta <a href=\"%s\">un ghid de actualizare</"
+"a> pentru a răspunde tuturor întrebărilor, dar dacă totuși ai o întrebare, "
+"te rog sa contactezi echipa noastră de suport, folosind <a href=\"%s\">help "
+"desk</a>"
 
 #: admin/views/settings-info.php:74
 msgid "Under the Hood"
-msgstr "Pod kapotou"
+msgstr "Sub capată"
 
 #: admin/views/settings-info.php:79
 msgid "Smarter field settings"
-msgstr "Vylepšené nastavenia polí"
+msgstr "Setări deștepte ale câmpurilor"
 
 #: admin/views/settings-info.php:80
 msgid "ACF now saves its field settings as individual post objects"
-msgstr "ACF ukladá nastavenia polí ako jednotlivé objekty"
+msgstr ""
+"ACF salvează acum setările câmpurilor ca fiind obiecte de tip articol "
+"individuale"
 
 #: admin/views/settings-info.php:84
 msgid "More AJAX"
-msgstr "Viac AJAXu"
+msgstr "Mai mult AJAX"
 
 #: admin/views/settings-info.php:85
 msgid "More fields use AJAX powered search to speed up page loading"
-msgstr "Pre rýchlejšie načítanie, používame AJAX vyhľadávanie"
+msgstr ""
+"Mai multe câmpuri folosesc puterea de căutare AJAX pentru a micșora timpul "
+"de încărcare al paginii"
 
 #: admin/views/settings-info.php:89
 msgid "Local JSON"
-msgstr "Local JSON"
+msgstr "JSON local"
 
 #: admin/views/settings-info.php:90
 msgid "New auto export to JSON feature improves speed"
-msgstr "Nový auto export JSON vylepšuje rýchlosť"
+msgstr "Noua funcționalitate de auto import în JSON îmbunătățește viteza"
 
 #: admin/views/settings-info.php:94
 msgid "Better version control"
-msgstr "Lepšia správa verzií"
+msgstr "Un control mai bun al versiunii"
 
 #: admin/views/settings-info.php:95
 msgid ""
 "New auto export to JSON feature allows field settings to be version "
 "controlled"
-msgstr "Nový auto export JSON obsahuje kontrolu verzií povolených polí"
+msgstr ""
+"Noua funcționalitate de auto export în JSON permite ca setările câmpurilor "
+"să fie ”version controlled”"
 
 #: admin/views/settings-info.php:99
 msgid "Swapped XML for JSON"
-msgstr "Vymenené XML za JSON"
+msgstr "Am schimbat XML în favoarea JSON"
 
 #: admin/views/settings-info.php:100
 msgid "Import / Export now uses JSON in favour of XML"
-msgstr "Import / Export teraz používa JSON miesto XML"
+msgstr "Importul / Exportul folosește acum JSON în defavoarea XML"
 
 #: admin/views/settings-info.php:104
 msgid "New Forms"
-msgstr "Nové formuláre"
+msgstr "Noi formulare"
 
 #: admin/views/settings-info.php:105
 msgid "Fields can now be mapped to comments, widgets and all user forms!"
-msgstr "Polia môžu patriť komentárom, widgetom a všetkým formulárom!"
+msgstr ""
+"Câmpurile pot fi acum mapate la comentarii, widget-uri sau orice alt "
+"formular creat de user!"
 
 #: admin/views/settings-info.php:110
 msgid "A new field for embedding content has been added"
-msgstr "Bolo pridané nové pole pre vložený obsah"
+msgstr "Un nou câmp pentru încorporarea conținutului a fost adaugat"
 
 #: admin/views/settings-info.php:114
 msgid "New Gallery"
-msgstr "Nová galéria"
+msgstr "Galerie Nouă"
 
 #: admin/views/settings-info.php:115
 msgid "The gallery field has undergone a much needed facelift"
-msgstr "Pole galérie vážne potrebovalo upraviť vzhľad"
+msgstr "Câmpul Galierie a suferit un facelift bine meritat"
 
 #: admin/views/settings-info.php:119
 msgid "New Settings"
-msgstr "Nové nastavenia"
+msgstr "Configurări noi"
 
 #: admin/views/settings-info.php:120
 msgid ""
 "Field group settings have been added for label placement and instruction "
 "placement"
 msgstr ""
-"Boli pridané nastavenie skupiny pola pre umiestnenie oznčenia a umietsntenie "
-"inštrukcií"
+"Setările grupului de câmpuri a fost adăugat pentru poziționarea etichitelor "
+"și a instrucțiunilor"
 
 #: admin/views/settings-info.php:124
 msgid "Better Front End Forms"
-msgstr "Lepšie vidieľné formuláre"
+msgstr "Formulare Front End mai bune"
 
 #: admin/views/settings-info.php:125
 msgid "acf_form() can now create a new post on submission"
-msgstr "acf_form() teraz po odoslaní môže vytvoriť nový príspevok"
+msgstr ""
+"acf_form() poate crea acum un nou articol odată ce cererea a fost trimisă"
 
 #: admin/views/settings-info.php:129
 msgid "Better Validation"
-msgstr "Lepšie overovanie"
+msgstr "O validare mai bună"
 
 #: admin/views/settings-info.php:130
 msgid "Form validation is now done via PHP + AJAX in favour of only JS"
-msgstr "Overovanie formulára sa deje pomocou PHP a AJAX namiesto JS"
+msgstr ""
+"Validarea formularelor se face acum via PHP + AJAX în defavoarea numai JS"
 
 #: admin/views/settings-info.php:134
 msgid "Relationship Field"
-msgstr "Vzťah polí"
+msgstr "Câmp de realționare"
 
 #: admin/views/settings-info.php:135
 msgid ""
 "New Relationship field setting for 'Filters' (Search, Post Type, Taxonomy)"
 msgstr ""
-"Nový nastavenie vťahov pola 'FIltre' (vyhľadávanie, typ článku, taxonómia)"
+"Setările noului câmp de relaționare pentru Filtre (Caută, Tipul Articolului, "
+"Taxonomie)"
 
 #: admin/views/settings-info.php:139
 msgid "Moving Fields"
-msgstr "Hýbajúce polia"
+msgstr "Câmpuri care pot fi mutate"
 
 #: admin/views/settings-info.php:140
 msgid ""
 "New field group functionality allows you to move a field between groups & "
 "parents"
 msgstr ""
-"Nová skupinová funkcionalita vám dovolí presúvať polia medzi skupinami a "
-"nadradenými poliami"
+"Noua funcționalitate a grupului de câmpuri îți permite acum să muți "
+"câmpurile între grupuri"
 
 #: admin/views/settings-info.php:144 fields/page_link.php:36
 msgid "Page Link"
-msgstr "Odkaz stránky "
+msgstr "Legătura Paginii"
 
 #: admin/views/settings-info.php:145
 msgid "New archives group in page_link field selection"
-msgstr "Nová skupina archívov vo výbere pola page_link"
+msgstr "Noua arhivă de grup în selecția page_link "
 
 #: admin/views/settings-info.php:149
 msgid "Better Options Pages"
-msgstr "Lepšie nastavenia stránok"
+msgstr "Opțiuni mai bune pentru Pagini"
 
 #: admin/views/settings-info.php:150
 msgid ""
 "New functions for options page allow creation of both parent and child menu "
 "pages"
 msgstr ""
-"Nové funkcie nastavenia stránky vám dovolí vytvorenie vytvorenie menu "
-"nadradených aj odvodených stránok"
+"Noile funcții pentru opțiunile pagini îți permite acum create de pagini "
+"meniu și submeniuri"
 
 #: admin/views/settings-info.php:158
 #, php-format
 msgid "We think you'll love the changes in %s."
-msgstr "Myslíme, že si zamilujete zmeny v %s."
+msgstr "Credem că vei îndrăgi shimbările în %s."
 
 #: admin/views/update-notice.php:22
 msgid "ACF PRO Required"
-msgstr "Musíte mať Pro verziu"
+msgstr "Este necesară versiunea ACF RPO"
 
 #: admin/views/update-notice.php:24 admin/views/update-notice.php:36
 #, php-format
 msgid "Thank you for updating to %s v%s!"
-msgstr "Vďaka za aktualizáciu %s v%s!"
+msgstr "Îți mulțumim pentru actualizarea făcută la %s v%s!"
 
 #: admin/views/update-notice.php:26
 #, php-format
@@ -1235,442 +1258,445 @@ msgid ""
 "We have detected an issue which requires your attention: This website makes "
 "use of premium add-ons (%s) which are no longer compatible with ACF."
 msgstr ""
-"Zistili sme problém vyžadujúci vašu pozornosť. Táto stránka využíva doplnky "
-"(%s), ktoré už nie sú komaptibilné s ACF."
+"Am detectat o problemă care necesită atenția ta: Acest website folosește add-"
+"onuri premium (%s) care nu mai sunt compatibile cu ACF."
 
 #: admin/views/update-notice.php:28
 msgid ""
 "Don't panic, you can simply roll back the plugin and continue using ACF as "
 "you know it!"
 msgstr ""
-"Nemusíte sa báť! Môžete sa vrátiť k používaniu predchádzajúcej verzii ACF!"
+"Nu te panica, poți reveni oricând la o versiune anterioară și poți folosi în "
+"continuare ACF așa cum știi!"
 
 #: admin/views/update-notice.php:30
 #, php-format
 msgid "Roll back to ACF v%s"
-msgstr "Vrátiť sa k ACF v%s"
+msgstr "Revenire la versiunea %s a ACF"
 
 #: admin/views/update-notice.php:30
 msgid "Learn why ACF PRO is required for my site"
-msgstr "Zistite prečo by ste mali používať ACF PRO"
+msgstr "Află de ce ACF PRO este cerut pentru site-ul tău"
 
 #: admin/views/update-notice.php:34
 msgid "Database Upgrade Required"
-msgstr "Je potrebná aktualizácia databázy"
+msgstr "Actualizare bazei de date este necesară"
 
 #: admin/views/update-notice.php:36
 msgid ""
 "Before you start using the new awesome features, please update your database "
 "to the newest version."
 msgstr ""
-"Než začnete používať nové funkcie, prosím najprv aktualizujte vašu databázu "
-"na najnovšiu verziu."
+"Înainte de a începe să folosești uimitoarele funcții noi, te rungăm să "
+"actualizezi baza de date la o versiune mai recentă."
 
 #: admin/views/update-notice.php:38
 msgid "Update Database"
-msgstr "Aktualizácia databázy "
+msgstr "Actualizarea Bazei de Date"
 
 #: admin/views/update-notice.php:45
 msgid ""
 "It is strongly recommended that you backup your database before proceeding. "
 "Are you sure you wish to run the updater now?"
 msgstr ""
-"Pred aktualizáciou odporúčame zálohovať databázu. Želáte si aktualizáciu "
-"spustiť teraz?"
+"Este puternic recomandat să faceți o copie de siguranța a bazei de date "
+"înainte de a începe procesul de actualizare. Ești sigur că vrei să începi "
+"actualizarea acum?"
 
 #: admin/views/update.php:9
 msgid "Data Upgrade"
-msgstr "Aktualizovať dáta"
+msgstr "Actualizare Date"
 
 #: admin/views/update.php:13
 msgid "Reading upgrade tasks..."
-msgstr "Čítanie aktualizačných úloh..."
+msgstr "Citirea sarcinilor necesare pentru actualizare..."
 
 #: admin/views/update.php:19
 #, php-format
 msgid "Upgrading data to version %s"
-msgstr "Aktualizácia dát na verziu %s"
+msgstr "Actualizarea datelor la versiunea %s"
 
 #: admin/views/update.php:25
 msgid "Data upgraded successfully."
-msgstr "Úspešne aktualizované data."
+msgstr "Actualizarea datelor a fost făcută cu succes."
 
 #: admin/views/update.php:27
 msgid "See what's new"
-msgstr "Pozrite sa, čo je nové"
+msgstr "Află ce este nou"
 
 #: admin/views/update.php:31
 msgid "Data is at the latest version."
-msgstr "Dáta sú aktuálne."
+msgstr "Datele sunt actualizate."
 
 #: api/api-helpers.php:816
 msgid "Thumbnail"
-msgstr "Náhľad "
+msgstr "Miniatură"
 
 #: api/api-helpers.php:817
 msgid "Medium"
-msgstr "Stredný "
+msgstr "Mediu"
 
 #: api/api-helpers.php:818
 msgid "Large"
-msgstr "Veľký "
+msgstr "Mare"
 
 #: api/api-helpers.php:866
 msgid "Full Size"
-msgstr "Úplný "
+msgstr "Marime completă"
 
 #: api/api-helpers.php:1552
 msgid "(no title)"
-msgstr "(bez názvu)"
+msgstr "(fără titlu)"
 
 #: api/api-template.php:1268 pro/fields/gallery.php:567
 msgid "Update"
-msgstr "Aktualizovať "
+msgstr "Actualizează"
 
 #: api/api-template.php:1269
 msgid "Post updated"
-msgstr "Príspevok akutalizovaný "
+msgstr "Articol Actualizat"
 
 #: core/field.php:130
 msgid "Basic"
-msgstr "Základné "
+msgstr "De bază"
 
 #: core/field.php:131
 msgid "Content"
-msgstr "Obsah "
+msgstr "Conținut"
 
 #: core/field.php:132
 msgid "Choice"
-msgstr "Voľba "
+msgstr "Alegere"
 
 #: core/field.php:133
 msgid "Relational"
-msgstr "Relačný "
+msgstr "Relațional"
 
 #: core/field.php:134
 msgid "jQuery"
-msgstr "jQuery "
+msgstr "jQuery"
 
 #: core/field.php:135 fields/checkbox.php:187 fields/radio.php:231
 #: pro/fields/flexible-content.php:516 pro/fields/repeater.php:392
 msgid "Layout"
-msgstr "Rozmiestnenie"
+msgstr "Schemă"
 
 #: core/input.php:129
 msgid "Expand Details"
-msgstr "Zväčšiť detaily "
+msgstr "Extinde Detaliile"
 
 #: core/input.php:130
 msgid "Collapse Details"
-msgstr "Zmenšiť detaily "
+msgstr "Închide Detaliile"
 
 #: core/input.php:180
 msgid "Validation successful"
-msgstr "Overenie bolo úspešné"
+msgstr "Validare a fost făcută cu succes"
 
 #: core/input.php:192
 msgid "Validation failed"
-msgstr "Overenie zlyhalo. "
+msgstr "Validarea a eșuat"
 
 #: core/input.php:199
 #, php-format
 msgid "1 required field below is empty"
 msgid_plural "%s required fields below are empty"
-msgstr[0] "1 povinné pole je prázdne"
-msgstr[1] "%s povinné polia sú prázdne"
-msgstr[2] "%s povinných polí je prázdnych"
+msgstr[0] "1 câmp obligatoriu este gol"
+msgstr[1] "%s câmpuri obligatorii sunt goale"
 
 #: core/input.php:535
 #, php-format
 msgid "%s value is required"
-msgstr "vyžaduje sa hodnota %s"
+msgstr "%s valoarea este obligatorie"
 
 #: core/media.php:84
 #, php-format
 msgid "Image width must be at least %dpx."
-msgstr "Šírka obrázku musí byť aspoň %dpx."
+msgstr "Lățimea imaginii trebuie să fie cel puțin %dpx."
 
 #: core/media.php:89
 #, php-format
 msgid "Image width must not exceed %dpx."
-msgstr "Šírka obrázku nesmie prekročiť %dpx."
+msgstr "Lățimea imaginii nu trebuie să depășească %dpx."
 
 #: core/media.php:104
 #, php-format
 msgid "Image height must be at least %dpx."
-msgstr "Výška obrázku musí byť aspoň %dpx."
+msgstr "Înălțimea imaginii trebuie să fie cel puțin %dpx."
 
 #: core/media.php:109
 #, php-format
 msgid "Image height must not exceed %dpx."
-msgstr "Výška obrázku nesmie prekročiť %dpx."
+msgstr "Înălțimea imaginii nu trebuie să depășească %dpx."
 
 #: core/media.php:125
 #, php-format
 msgid "File size must be at least %s."
-msgstr "Veľkosť súboru musí byť aspoň %s."
+msgstr "Mărimea fișierului trebuie să fie cel puțin %s."
 
 #: core/media.php:130
 #, php-format
 msgid "File size must must not exceed %s."
-msgstr "Veľkosť súboru nesmie prekročiť %s."
+msgstr "Mărimea fișierului nu trebuie să depășească %s."
 
 #: core/media.php:154
 #, php-format
 msgid "File type must be %s."
-msgstr "Typ súboru musí byť %s."
+msgstr "Tipul fișierului trebuie să fie %s."
 
 #: fields/checkbox.php:36 fields/taxonomy.php:733
 msgid "Checkbox"
-msgstr "Zaškrtávacie políčko "
+msgstr "Checkbox"
 
 #: fields/checkbox.php:169 fields/radio.php:193 fields/select.php:374
 msgid "Choices"
-msgstr "Voľby "
+msgstr "Alegere"
 
 #: fields/checkbox.php:170 fields/radio.php:194 fields/select.php:375
 msgid "Enter each choice on a new line."
-msgstr "Zadajte každú voľbu do nového riadku. "
+msgstr "Pune fiecare alegere pe o linie nouă."
 
 #: fields/checkbox.php:170 fields/radio.php:194 fields/select.php:375
 msgid "For more control, you may specify both a value and label like this:"
-msgstr "Pre lepšiu kontrolu, môžete určiť hodnotu a popis takto:"
+msgstr ""
+"Pentru un mai bun control, poți specifica o valoare și o etichetă ca de "
+"exemplu:"
 
 #: fields/checkbox.php:170 fields/radio.php:194 fields/select.php:375
 msgid "red : Red"
-msgstr "červená : Červená "
+msgstr "roșu : Roșu"
 
 #: fields/checkbox.php:178 fields/color_picker.php:158 fields/email.php:124
 #: fields/number.php:150 fields/radio.php:222 fields/select.php:383
 #: fields/text.php:148 fields/textarea.php:145 fields/true_false.php:115
 #: fields/url.php:117 fields/wysiwyg.php:345
 msgid "Default Value"
-msgstr "Základná hodnota "
+msgstr "Valoare implicită"
 
 #: fields/checkbox.php:179 fields/select.php:384
 msgid "Enter each default value on a new line"
-msgstr "Zadajte každú základnú hodnotu na nový riadok "
+msgstr "Introdu fiecare valoare implicită pe o linie nouă"
 
 #: fields/checkbox.php:193 fields/radio.php:237
 msgid "Vertical"
-msgstr "Vertikálne "
+msgstr "Vertical"
 
 #: fields/checkbox.php:194 fields/radio.php:238
 msgid "Horizontal"
-msgstr "Horizontálne "
+msgstr "Orizontal"
 
 #: fields/color_picker.php:36
 msgid "Color Picker"
-msgstr "Výber farby "
+msgstr "Alege Culoarea"
 
 #: fields/color_picker.php:94
 msgid "Clear"
-msgstr "Vyčistiť"
+msgstr "Curăță"
 
 #: fields/color_picker.php:95
 msgid "Default"
-msgstr "Predvolené "
+msgstr "Implicit"
 
 #: fields/color_picker.php:96
 msgid "Select Color"
-msgstr "Farba"
+msgstr "Alege Culoarea"
 
 #: fields/date_picker.php:36
 msgid "Date Picker"
-msgstr "Výber dátumu "
+msgstr "Alege data calendaristică"
 
 #: fields/date_picker.php:72
 msgid "Done"
-msgstr "Hotovo "
+msgstr "Terminare"
 
 #: fields/date_picker.php:73
 msgid "Today"
-msgstr "Dnes "
+msgstr "Azi"
 
 #: fields/date_picker.php:76
 msgid "Show a different month"
-msgstr "Zobraziť iný mesiac "
+msgstr "Arată o altă lună"
 
 #: fields/date_picker.php:149
 msgid "Display format"
-msgstr "Formát zobrazenia "
+msgstr "Formatul de Afișare"
 
 #: fields/date_picker.php:150
 msgid "The format displayed when editing a post"
-msgstr "Formát zobrazený pri úprave článku"
+msgstr "Formatul afișat în momentul editării unui articol"
 
 #: fields/date_picker.php:164
 msgid "Return format"
-msgstr "Formát odpoveďe "
+msgstr "Fromatul rezultat"
 
 #: fields/date_picker.php:165
 msgid "The format returned via template functions"
-msgstr "Formát vrátený pomocou funkcii šablóny"
+msgstr "Formatul rezultat via funcțiilor șablon"
 
 #: fields/date_picker.php:180
 msgid "Week Starts On"
-msgstr "Týždeň začína "
+msgstr "Săptămâna începe în ziua de"
 
 #: fields/email.php:36
 msgid "Email"
-msgstr "E-Mail "
+msgstr "Adresă de email"
 
 #: fields/email.php:125 fields/number.php:151 fields/radio.php:223
 #: fields/text.php:149 fields/textarea.php:146 fields/url.php:118
 #: fields/wysiwyg.php:346
 msgid "Appears when creating a new post"
-msgstr "Zobrazí sa pri vytvorení nového príspevku "
+msgstr "Apare cănd creați un articol nou"
 
 #: fields/email.php:133 fields/number.php:159 fields/password.php:137
 #: fields/text.php:157 fields/textarea.php:154 fields/url.php:126
 msgid "Placeholder Text"
-msgstr "Zástupný text "
+msgstr "Textul afișat ca placeholder"
 
 #: fields/email.php:134 fields/number.php:160 fields/password.php:138
 #: fields/text.php:158 fields/textarea.php:155 fields/url.php:127
 msgid "Appears within the input"
-msgstr "Zobrazí sa vo vstupe"
+msgstr "Apare în intrare"
 
 #: fields/email.php:142 fields/number.php:168 fields/password.php:146
 #: fields/text.php:166
 msgid "Prepend"
-msgstr "Predpona"
+msgstr "Prefixează"
 
 #: fields/email.php:143 fields/number.php:169 fields/password.php:147
 #: fields/text.php:167
 msgid "Appears before the input"
-msgstr "Zobrazí sa pred vstupom"
+msgstr "Apare înainte de intrare"
 
 #: fields/email.php:151 fields/number.php:177 fields/password.php:155
 #: fields/text.php:175
 msgid "Append"
-msgstr "Prípona"
+msgstr "Adaugă"
 
 #: fields/email.php:152 fields/number.php:178 fields/password.php:156
 #: fields/text.php:176
 msgid "Appears after the input"
-msgstr "Zobrazí sa po vstupe"
+msgstr "Apare după intrare"
 
 #: fields/file.php:36
 msgid "File"
-msgstr "Súbor "
+msgstr "Fișier"
 
 #: fields/file.php:47
 msgid "Edit File"
-msgstr "Upraviť súbor "
+msgstr "Editează fișierul"
 
 #: fields/file.php:48
 msgid "Update File"
-msgstr "Aktualizovať súbor "
+msgstr "Actualizează fișierul"
 
 #: fields/file.php:49 pro/fields/gallery.php:55
 msgid "uploaded to this post"
-msgstr "Nahrané do príspevku "
+msgstr "încărcate la acest articol"
 
 #: fields/file.php:141
 msgid "File Name"
-msgstr "Názov súboru"
+msgstr "Numele fișierului"
 
 #: fields/file.php:145
 msgid "File Size"
-msgstr "Veľkosť súboru"
+msgstr "Mărimea fișierului"
 
 #: fields/file.php:168
 msgid "No File selected"
-msgstr "Nevybrali ste súbor "
+msgstr "Nu a fost selectat nici un fișier"
 
 #: fields/file.php:168
 msgid "Add File"
-msgstr "Pridať súbor "
+msgstr "Adaugă fișier"
 
 #: fields/file.php:213 fields/image.php:192 fields/taxonomy.php:770
 msgid "Return Value"
-msgstr "Vrátiť hodnotu "
+msgstr "Valoarea returnată"
 
 #: fields/file.php:214 fields/image.php:193
 msgid "Specify the returned value on front end"
-msgstr "Zadajte hodnotu, ktorá sa objaví na stránke"
+msgstr "Specificați valoarea returnată în front end"
 
 #: fields/file.php:219
 msgid "File Array"
-msgstr "Súbor "
+msgstr "Mulțime de fișier"
 
 #: fields/file.php:220
 msgid "File URL"
-msgstr "URL adresa súboru "
+msgstr "Cale Fișier"
 
 #: fields/file.php:221
 msgid "File ID"
-msgstr "ID súboru "
+msgstr "ID Fișier"
 
 #: fields/file.php:228 fields/image.php:217 pro/fields/gallery.php:650
 msgid "Library"
-msgstr "Knižnica "
+msgstr "Librărie"
 
 #: fields/file.php:229 fields/image.php:218 pro/fields/gallery.php:651
 msgid "Limit the media library choice"
-msgstr "Obmedziť výber knižnice médií "
+msgstr "Limitați alegerea librăriei media"
 
 #: fields/file.php:235 fields/image.php:224 pro/fields/gallery.php:657
 msgid "Uploaded to post"
-msgstr "Nahrané do príspevku "
+msgstr "Încărcate pentru acest articol"
 
 #: fields/file.php:242 fields/image.php:231 pro/fields/gallery.php:664
 msgid "Minimum"
-msgstr "Minimálny počet"
+msgstr "Minim"
 
 #: fields/file.php:243 fields/file.php:254
 msgid "Restrict which files can be uploaded"
-msgstr "Vymedzte, ktoré súbory je možné nahrať"
+msgstr "Restricționați ce tipuri de fișiere pot fi încărcate"
 
 #: fields/file.php:246 fields/file.php:257 fields/image.php:254
 #: fields/image.php:287 pro/fields/gallery.php:687 pro/fields/gallery.php:720
 msgid "File size"
-msgstr "Veľkosť súboru "
+msgstr "Mărime fișier"
 
 #: fields/file.php:253 fields/image.php:264 pro/fields/gallery.php:697
 msgid "Maximum"
-msgstr "Maximálny počet"
+msgstr "Maxim"
 
 #: fields/file.php:264 fields/image.php:297 pro/fields/gallery.php:730
 msgid "Allowed file types"
-msgstr "Povolené typy súborov"
+msgstr "Tipuri de fișiere permise"
 
 #: fields/file.php:265 fields/image.php:298 pro/fields/gallery.php:731
 msgid "Comma separated list. Leave blank for all types"
-msgstr "Zoznam, oddelený čiarkou. Nechajte prázdne pre všetky typy"
+msgstr "Listă separată prin virgulă. Lăsați liber pentru toate tipurile"
 
 #: fields/google-map.php:36
 msgid "Google Map"
-msgstr "Google Mapa "
+msgstr "Hartă Google"
 
 #: fields/google-map.php:51
 msgid "Locating"
-msgstr "Poloha"
+msgstr "Localizare"
 
 #: fields/google-map.php:52
 msgid "Sorry, this browser does not support geolocation"
-msgstr "Ľutujeme, tento prehliadač nepodporuje geo hľadanie polohy "
+msgstr "Ne pare rău, acest broswer nu suportă geo locația"
 
 #: fields/google-map.php:135
 msgid "Clear location"
-msgstr "Vymazať polohu "
+msgstr "Sterge Locația"
 
 #: fields/google-map.php:142
 msgid "Find current location"
-msgstr "Nájsť aktuálnu polohu "
+msgstr "Găsește locația curentă"
 
 #: fields/google-map.php:145
 msgid "Search for address..."
-msgstr "Hľadať adresu... "
+msgstr "Caută adresa..."
 
 #: fields/google-map.php:177 fields/google-map.php:188
 msgid "Center"
-msgstr "Stred "
+msgstr "Centru"
 
 #: fields/google-map.php:178 fields/google-map.php:189
 msgid "Center the initial map"
-msgstr "Vycentrovať úvodnú mapu "
+msgstr "Centrează harta inițială"
 
 #: fields/google-map.php:202
 msgid "Zoom"
@@ -1678,126 +1704,128 @@ msgstr "Zoom"
 
 #: fields/google-map.php:203
 msgid "Set the initial zoom level"
-msgstr "Nastavte základnú úroveň priblíženia"
+msgstr "Setează nivelul de zoom inițial"
 
 #: fields/google-map.php:212 fields/image.php:243 fields/image.php:276
 #: fields/oembed.php:264 pro/fields/gallery.php:676 pro/fields/gallery.php:709
 msgid "Height"
-msgstr "Výška "
+msgstr "Înălțime"
 
 #: fields/google-map.php:213
 msgid "Customise the map height"
-msgstr "Upraviť výšku mapy "
+msgstr "Personalizați înălțimea hărții"
 
 #: fields/image.php:36
 msgid "Image"
-msgstr "Obrázok "
+msgstr "Imagine"
 
 #: fields/image.php:51
 msgid "Select Image"
-msgstr "Vybrať obrázok "
+msgstr "Alege imaginea"
 
 #: fields/image.php:52 pro/fields/gallery.php:53
 msgid "Edit Image"
-msgstr "Upraviť obrázok "
+msgstr "Editează imaginea"
 
 #: fields/image.php:53 pro/fields/gallery.php:54
 msgid "Update Image"
-msgstr "Aktualizovať obrázok "
+msgstr "Actualizează imaginea"
 
 #: fields/image.php:54
 msgid "Uploaded to this post"
-msgstr "Nahrané do príspevku "
+msgstr "Încărcate pentru acest articol"
 
 #: fields/image.php:55
 msgid "All images"
-msgstr "Všetky obrázky"
+msgstr "Toate imaginiile"
 
 #: fields/image.php:144
 msgid "No image selected"
-msgstr "Nevybrali ste obrázok "
+msgstr "Nu ai selectat nici o imagine"
 
 #: fields/image.php:144
 msgid "Add Image"
-msgstr "Pridať obrázok "
+msgstr "Adaugă o imagine"
 
 #: fields/image.php:198
 msgid "Image Array"
-msgstr "Obrázok "
+msgstr "Mulțime de imagini"
 
 #: fields/image.php:199
 msgid "Image URL"
-msgstr "URL adresa obrázka "
+msgstr "URL-ul imaginii"
 
 #: fields/image.php:200
 msgid "Image ID"
-msgstr "ID obrázka "
+msgstr "ID-ul imaginii"
 
 #: fields/image.php:207 pro/fields/gallery.php:640
 msgid "Preview Size"
-msgstr "Veľkosť náhľadu "
+msgstr "Dimensiunea previzualizării"
 
 #: fields/image.php:208 pro/fields/gallery.php:641
 msgid "Shown when entering data"
-msgstr "Zobrazené pri zadávaní dát "
+msgstr "Afișat la introducerea datelor"
 
 #: fields/image.php:232 fields/image.php:265 pro/fields/gallery.php:665
 #: pro/fields/gallery.php:698
 msgid "Restrict which images can be uploaded"
-msgstr "Určite, ktoré typy obrázkov môžu byť nahraté"
+msgstr "Restricționează care imagini pot fi încărcate"
 
 #: fields/image.php:235 fields/image.php:268 fields/oembed.php:253
 #: pro/fields/gallery.php:668 pro/fields/gallery.php:701
 msgid "Width"
-msgstr "Šírka"
+msgstr "Lățime"
 
 #: fields/message.php:36 fields/message.php:102 fields/true_false.php:106
 msgid "Message"
-msgstr "Správa "
+msgstr "Mesaj"
 
 #: fields/message.php:103
 msgid "Please note that all text will first be passed through the wp function "
-msgstr "Všetky texty najprv prejdú cez funkciu wp "
+msgstr ""
+"Vă rugăm să rețineți că toate textele vor fi mai întâi trecute prin funcția "
+"wp"
 
 #: fields/message.php:111
 msgid "Escape HTML"
-msgstr "Eskapovať HTML (€ za &euro;)"
+msgstr "Scăpare HTML"
 
 #: fields/message.php:112
 msgid "Allow HTML markup to display as visible text instead of rendering"
 msgstr ""
-"Povoliť zobrazenie HTML značiek vo forme viditeľného textu namiesto ich "
-"vykreslenia"
+"Permite markup-ului HTML să fie afișat că text vizibil în loc să fie "
+"interpretat"
 
 #: fields/number.php:36
 msgid "Number"
-msgstr "Číslo "
+msgstr "Număr"
 
 #: fields/number.php:186
 msgid "Minimum Value"
-msgstr "Minimálna hodnota "
+msgstr "Valoare minimă"
 
 #: fields/number.php:195
 msgid "Maximum Value"
-msgstr "Maximálna hodnota "
+msgstr "Valoare maximă"
 
 #: fields/number.php:204
 msgid "Step Size"
-msgstr "Veľkosť kroku "
+msgstr "Mărime pas"
 
 #: fields/number.php:242
 msgid "Value must be a number"
-msgstr "Hodnota musí byť číslo"
+msgstr "Valoarea trebuie să fie un număr"
 
 #: fields/number.php:260
 #, php-format
 msgid "Value must be equal to or higher than %d"
-msgstr "Hodnota musí byť rovná alebo väčšia ako %d"
+msgstr "Valoarea trebuie să fie egală sau mai mare decât %d"
 
 #: fields/number.php:268
 #, php-format
 msgid "Value must be equal to or lower than %d"
-msgstr "Hodnota musí byť rovná alebo nižšia ako %d"
+msgstr "Valoarea trebuie să fie egală sau mai mică decât %d"
 
 #: fields/oembed.php:36
 msgid "oEmbed"
@@ -1805,169 +1833,170 @@ msgstr "oEmbed"
 
 #: fields/oembed.php:199
 msgid "Enter URL"
-msgstr "Vložiť URL"
+msgstr "Introduceți URL"
 
 #: fields/oembed.php:214
 msgid "No embed found for the given URL"
-msgstr "Nebol nájdený obsah na zadanej URL adrese"
+msgstr "Nu a fost găsit nici un oembed pentru URL introdus"
 
 #: fields/oembed.php:250 fields/oembed.php:261
 msgid "Embed Size"
-msgstr "Veľkosť vloženého obsahu"
+msgstr "Marimea Embed"
 
 #: fields/page_link.php:206
 msgid "Archives"
-msgstr "Archívy "
+msgstr "Arhive"
 
 #: fields/page_link.php:534 fields/post_object.php:403
 #: fields/relationship.php:691
 msgid "Filter by Post Type"
-msgstr "Filtrovať podľa typu príspevku "
+msgstr "Filtur dupa Tipul Articolului"
 
 #: fields/page_link.php:542 fields/post_object.php:411
 #: fields/relationship.php:699
 msgid "All post types"
-msgstr "Všetky typy príspevkov "
+msgstr "Toate Tipurile Articolului"
 
 #: fields/page_link.php:548 fields/post_object.php:417
 #: fields/relationship.php:705
 msgid "Filter by Taxonomy"
-msgstr "Filter z taxonómie "
+msgstr "Filtru după Taxonomie"
 
 #: fields/page_link.php:556 fields/post_object.php:425
 #: fields/relationship.php:713
 msgid "All taxonomies"
-msgstr "Žiadny filter taxonómie "
+msgstr "Toate Taxonomiile"
 
 #: fields/page_link.php:562 fields/post_object.php:431 fields/select.php:392
 #: fields/taxonomy.php:746 fields/user.php:372
 msgid "Allow Null?"
-msgstr "Povoliť nulovú hodnotu? "
+msgstr "Permite valori nule?"
 
 #: fields/page_link.php:576 fields/post_object.php:445 fields/select.php:406
 #: fields/user.php:386
 msgid "Select multiple values?"
-msgstr "Vybrať viac hodnôt? "
+msgstr "Permite selecția de valori multiple?"
 
 #: fields/password.php:36
 msgid "Password"
-msgstr "Heslo "
+msgstr "Parolă"
 
 #: fields/post_object.php:36 fields/post_object.php:464
 #: fields/relationship.php:766
 msgid "Post Object"
-msgstr "Objekt príspevku "
+msgstr "Obiect Articol"
 
 #: fields/post_object.php:459 fields/relationship.php:761
 msgid "Return Format"
-msgstr "Formát odpovede"
+msgstr "Formatul Returnat"
 
 #: fields/post_object.php:465 fields/relationship.php:767
 msgid "Post ID"
-msgstr "ID príspevku"
+msgstr "ID-ul Articolului"
 
 #: fields/radio.php:36
 msgid "Radio Button"
-msgstr "Prepínač "
+msgstr "Buton Radio"
 
 #: fields/radio.php:202
 msgid "Other"
-msgstr "Iné "
+msgstr "Altceva"
 
 #: fields/radio.php:206
 msgid "Add 'other' choice to allow for custom values"
-msgstr "Pridať možnosť 'iné' pre povolenie vlastných hodnôt"
+msgstr "Adaugă 'Altceva' pentru a permite o valoare personalizată"
 
 #: fields/radio.php:212
 msgid "Save Other"
-msgstr "Uložiť hodnoty iné"
+msgstr "Salvează Altceva"
 
 #: fields/radio.php:216
 msgid "Save 'other' values to the field's choices"
-msgstr "Uložiť hodnoty 'iné' do výberu poľa"
+msgstr "Salvează valoarea 'Altceva' la opțiunile câmpului"
 
 #: fields/relationship.php:36
 msgid "Relationship"
-msgstr "Vzťah "
+msgstr "Relație"
 
 #: fields/relationship.php:47
 msgid "Maximum values reached ( {max} values )"
-msgstr "Maximálne dosiahnuté hodnoty ( {max} values ) "
+msgstr "Valorile maxime atinse  ( {max} valori )"
 
 #: fields/relationship.php:48
 msgid "Loading"
-msgstr "Nahrávanie"
+msgstr "Se încarcă"
 
 #: fields/relationship.php:49
 msgid "No matches found"
-msgstr "Nebola nenájdená zhoda"
+msgstr "Nici un rezultat"
 
 #: fields/relationship.php:580
 msgid "Search..."
-msgstr "Hľadanie... "
+msgstr "Caută..."
 
 #: fields/relationship.php:589
 msgid "Select post type"
-msgstr "Vybrať typ príspevku "
+msgstr "Alegeți tipul articolului"
 
 #: fields/relationship.php:602
 msgid "Select taxonomy"
-msgstr "Vyberte ktorá taxonómiu"
+msgstr "Alegeți taxonomia"
 
 #: fields/relationship.php:724
 msgid "Search"
-msgstr "Hľadanie"
+msgstr "Caută"
 
 #: fields/relationship.php:726 fields/taxonomy.php:36 fields/taxonomy.php:717
 msgid "Taxonomy"
-msgstr "Taxonómia"
+msgstr "Taxonomie"
 
 #: fields/relationship.php:733
 msgid "Elements"
-msgstr "Prvky "
+msgstr "Elemente"
 
 #: fields/relationship.php:734
 msgid "Selected elements will be displayed in each result"
-msgstr "Vybraté prvky budú zobrazené v každom výsledku "
+msgstr "Elementele selectate vor apărea în fiecare rezultat"
 
 #: fields/relationship.php:752
 msgid "Maximum posts"
-msgstr "Maximálny počet príspevkov "
+msgstr "Numărul maxim de articole"
 
 #: fields/select.php:36 fields/select.php:160 fields/taxonomy.php:738
 msgid "Select"
-msgstr "Vybrať "
+msgstr "Selectează"
 
 #: fields/select.php:420
 msgid "Stylised UI"
-msgstr "Štýlované používateľské rozhranie"
+msgstr "UI stilizat"
 
 #: fields/select.php:434
 msgid "Use AJAX to lazy load choices?"
-msgstr "Použiť AJAX pre výber pomalšieho načítania?"
+msgstr "Folosiți AJAX pentru a încărca alegerile în modul ”Lazy Load”?"
 
 #: fields/tab.php:36
 msgid "Tab"
-msgstr "Záložka "
+msgstr "Tab"
 
 #: fields/tab.php:94
 msgid "Warning"
-msgstr "Varovanie"
+msgstr "Atenție"
 
 #: fields/tab.php:99
 msgid ""
 "The tab field will display incorrectly when added to a Table style repeater "
 "field or flexible content field layout"
 msgstr ""
-"Pole záložky nebude správne zobrazené ak bude pridané do opakovacieho pola "
-"štýlu tabuľky alebo flexibilného rozloženia pola."
+"Câmpul Tab nu va fi afișat corect când vei adauga un Câmp de tipul Tabel de "
+"stiluri repetitiv sau un Câmp de tipul Schemă de Conținut Flexibil"
 
 #: fields/tab.php:112
 msgid ""
 "Use \"Tab Fields\" to better organize your edit screen by grouping fields "
 "together."
 msgstr ""
-"Pre lepšiu organizáciu na obrazovke úpravý polí použite \"Polia záložiek\"."
+"Folosește  \"Tab Fields\" pentru o mai ușoară organizare și grupare a "
+"câmpurilor."
 
 #: fields/tab.php:114
 msgid ""
@@ -1975,168 +2004,169 @@ msgid ""
 "defined) will be grouped together using this field's label as the tab "
 "heading."
 msgstr ""
-"Všetky polia nasledujúce \"pole záložky\" (pokým nebude definované nové "
-"\"pole záložky\") budú zoskupené a pod jedným nadpisom a označením."
+"Toate câmpurile care urmează după acest  \"tab field\" (sau până când un "
+"alt  \"tab field\" este definit) vor fi grupate împreună folosind eticheta "
+"acestui câmp ca fiind Titlul Tabului."
 
 #: fields/tab.php:121
 msgid "Placement"
-msgstr "Umiestnenie"
+msgstr "Plasament"
 
 #: fields/taxonomy.php:686
 msgid "None"
-msgstr "Žiadna "
+msgstr "Nici unul"
 
 #: fields/taxonomy.php:732
 msgid "Multiple Values"
-msgstr "Viaceré hodnoty"
+msgstr "Valori multiple"
 
 #: fields/taxonomy.php:734
 msgid "Multi Select"
-msgstr "Viacnásobný výber "
+msgstr "Selectie multiplă"
 
 #: fields/taxonomy.php:736
 msgid "Single Value"
-msgstr "Jedna hodnota "
+msgstr "O singură valoare"
 
 #: fields/taxonomy.php:737
 msgid "Radio Buttons"
-msgstr "Prepínače "
+msgstr "Butoane radio"
 
 #: fields/taxonomy.php:760
 msgid "Load & Save Terms to Post"
-msgstr "Nahrať & uložiť podmienky k prispievaniu "
+msgstr "Încarcă și Salvează Termenii la Articol"
 
 #: fields/taxonomy.php:764
 msgid ""
 "Load value based on the post's terms and update the post's terms on save"
 msgstr ""
-"Nahrať hodnoty založené na podmienkach prispievania, aktualizovať akrutálne "
-"podmienky a uložiť "
+"Încarcă valoarea pe baza termenilor articolului și actualizează termenii în "
+"momentul salvării"
 
 #: fields/taxonomy.php:775
 msgid "Term Object"
-msgstr "Objekt výrazu "
+msgstr "Obiectul Termen"
 
 #: fields/taxonomy.php:776
 msgid "Term ID"
-msgstr "ID výrazu "
+msgstr "ID-ul Termenului"
 
 #: fields/text.php:36
 msgid "Text"
-msgstr "Text "
+msgstr "Text"
 
 #: fields/text.php:184 fields/textarea.php:163
 msgid "Character Limit"
-msgstr "Limit znakov "
+msgstr "Limită de caractere"
 
 #: fields/text.php:185 fields/textarea.php:164
 msgid "Leave blank for no limit"
-msgstr "Nechajte prázdne pre neobmedzený počet"
+msgstr "Lasă gol pentru a nu a avea o limită"
 
 #: fields/textarea.php:36
 msgid "Text Area"
-msgstr "Textové pole "
+msgstr "Zonă de Text"
 
 #: fields/textarea.php:172
 msgid "Rows"
-msgstr "Riadky"
+msgstr "Linii"
 
 #: fields/textarea.php:173
 msgid "Sets the textarea height"
-msgstr "Nastaví výšku textovej oblasti"
+msgstr "Setează înălțimea zonei de text"
 
 #: fields/textarea.php:182
 msgid "New Lines"
-msgstr "Nové riadky"
+msgstr "Linii Noi"
 
 #: fields/textarea.php:183
 msgid "Controls how new lines are rendered"
-msgstr "Ovláda ako sú tvorené nové riadky"
+msgstr "Controlează cum sunt redate noile linii"
 
 #: fields/textarea.php:187
 msgid "Automatically add paragraphs"
-msgstr "Automaticky pridá odseky"
+msgstr "Adaugă automat paragrafe"
 
 #: fields/textarea.php:188
 msgid "Automatically add &lt;br&gt;"
-msgstr "Automaticky pridáva  &lt;br&gt;"
+msgstr "Adaugă automat &lt;br&gt;"
 
 #: fields/textarea.php:189
 msgid "No Formatting"
-msgstr "Žiadne formátovanie"
+msgstr "Nici o Formater"
 
 #: fields/true_false.php:36
 msgid "True / False"
-msgstr "Správne / nesprávne "
+msgstr "Adevărat / False"
 
 #: fields/true_false.php:107
 msgid "eg. Show extra content"
-msgstr "napr. zobraziť extra obsah "
+msgstr "ex. Arată extra conținut"
 
 #: fields/url.php:36
 msgid "Url"
-msgstr "URL adresa"
+msgstr "Url"
 
 #: fields/url.php:160
 msgid "Value must be a valid URL"
-msgstr "Hodnota musí obsahovať platnú URL adresu"
+msgstr "Valoarea trebuie să fie un URL valid"
 
 #: fields/user.php:357
 msgid "Filter by role"
-msgstr "Filtrovať podla role "
+msgstr "Filtrează după rol"
 
 #: fields/user.php:365
 msgid "All user roles"
-msgstr "Všekty používatelské role"
+msgstr "Toate rolurile de utilizator"
 
 #: fields/wysiwyg.php:37
 msgid "Wysiwyg Editor"
-msgstr "Vizuálny úpravca"
+msgstr "Editor Wysiwyg "
 
 #: fields/wysiwyg.php:297
 msgid "Visual"
-msgstr "Vizuálny"
+msgstr "Visual"
 
 #: fields/wysiwyg.php:298
 msgctxt "Name for the Text editor tab (formerly HTML)"
 msgid "Text"
-msgstr "Text "
+msgstr "Text [ Numele tabului editorului de Text ()]"
 
 #: fields/wysiwyg.php:354
 msgid "Tabs"
-msgstr "Záložky"
+msgstr "Taburi"
 
 #: fields/wysiwyg.php:359
 msgid "Visual & Text"
-msgstr "Vizuálny a textový"
+msgstr "Vizual & Text"
 
 #: fields/wysiwyg.php:360
 msgid "Visual Only"
-msgstr "Iba vizuálny"
+msgstr "Doar Vizual"
 
 #: fields/wysiwyg.php:361
 msgid "Text Only"
-msgstr "Iba textový"
+msgstr "Doar Text"
 
 #: fields/wysiwyg.php:368
 msgid "Toolbar"
-msgstr "Panel nástrojov "
+msgstr "Bară de instrumente"
 
 #: fields/wysiwyg.php:378
 msgid "Show Media Upload Buttons?"
-msgstr "Zobraziť tlačidlá nahrávania médií? "
+msgstr "Arată Butoanele de Încărcare a fișierelor Media"
 
 #: forms/post.php:341
 msgid "Edit field group"
-msgstr "Upraviť skupinu polí "
+msgstr "Editează Grupul de Câmpuri"
 
 #: pro/acf-pro.php:24
 msgid "Advanced Custom Fields PRO"
-msgstr "ACF PRO"
+msgstr "Câmpuri Avansate Personalizate PRO"
 
 #: pro/acf-pro.php:174
 msgid "Flexible Content requires at least 1 layout"
-msgstr "Flexibilný obsah vyžaduje aspoň jedno rozloženie"
+msgstr "Conținutul Flexibil necesită cel puțin 1 schemă"
 
 #: pro/admin/connect.php:167
 #, php-format
@@ -2145,194 +2175,196 @@ msgid ""
 "\">Updates</a> page. If you don't have a licence key, please see <a href=\"%s"
 "\">details & pricing</a>"
 msgstr ""
-"Aby ste zapli aktualizácie, musíte zadať licencčný kľúč na stránke <a href="
-"\"%s\">aktualizácií</a>. Ak nemáte licenčný kľúč, porizte si <a href=\"%s"
-"\">podrobnosti a ceny</a>."
+"Pentru a activa  actualizările, te rog să introduci codul de activare pe "
+"pagina <a href=\"%s\">Actualizări</a>. Dacă nu ai un cod de activare, te rog "
+"sa vizitezi pagina <a href=\"%s\">detalii & prețuri</a>"
 
 #: pro/admin/options-page.php:55
 msgid "Options Page"
-msgstr "Stránka nastavení "
+msgstr "Pagina de Opțiuni"
 
 #: pro/admin/options-page.php:90
 msgid "No options pages exist"
-msgstr "Neexistujú nastavenia stránok"
+msgstr "Nu există nicio pagină de opțiuni"
 
 #: pro/admin/options-page.php:296
 msgid "Options Updated"
-msgstr "Nastavenia aktualizované"
+msgstr "Opțiunile au fost actualizate"
 
 #: pro/admin/options-page.php:304
 msgid "No Custom Field Groups found for this options page"
-msgstr "Pre túto stránku neboli nájdené žiadne vlastné skupiny polí"
+msgstr "Nu a fost găsit nici un grup de câmpuri personalizate"
 
 #: pro/admin/options-page.php:304
 msgid "Create a Custom Field Group"
-msgstr "Vytvoriť novú vlastnú skupinu polí"
+msgstr "Creează un Grup de Câmpuri Personalizat"
 
 #: pro/admin/settings-updates.php:115
 msgid "<b>Error</b>. Could not connect to update server"
-msgstr "<b>Chyba</b>. Nie je možné sa spojiť so serverom"
+msgstr "<b>Eroare</b>. Conexiunea cu servărul a fost pierdută"
 
 #: pro/admin/settings-updates.php:245 pro/admin/settings-updates.php:312
 msgid "<b>Connection Error</b>. Sorry, please try again"
-msgstr "<b>Chyba spojenia</b>. Prosím skúste pokus opakovať."
+msgstr "<b>Eroare de conexiune</b>. Îmi pare rău, încearcă mai târziu"
 
 #: pro/admin/views/options-page.php:58
 msgid "Save Options"
-msgstr "Uložiť nastavenia"
+msgstr "Salvează Opțiuni"
 
 #: pro/admin/views/settings-updates.php:11
 msgid "Deactivate License"
-msgstr "Deaktivovať licenciu"
+msgstr "Dezactivează Licența"
 
 #: pro/admin/views/settings-updates.php:11
 msgid "Activate License"
-msgstr "Aktivovať licenciu"
+msgstr "Activează Licența"
 
 #: pro/admin/views/settings-updates.php:21
 msgid "License"
-msgstr "Licencia"
+msgstr "Licență"
 
 #: pro/admin/views/settings-updates.php:24
 msgid ""
 "To unlock updates, please enter your license key below. If you don't have a "
 "licence key, please see"
 msgstr ""
-"Pre odblokovanie aktualizácii, sem zadajte váš licenčný kľúč. Ak ešte "
-"licenčný kľúč nemáte, pozrite si"
+"Pentru a permite actualizări, te rog să introduci codul de activare în "
+"câmpul de mai jos. Dacă nu deții un cod de activare, te rog vizitează"
 
 #: pro/admin/views/settings-updates.php:24
 msgid "details & pricing"
-msgstr "detaily a ceny"
+msgstr "detalii & prețuri"
 
 #: pro/admin/views/settings-updates.php:33
 msgid "License Key"
-msgstr "Licenčný kľúč"
+msgstr "Cod de activare"
 
 #: pro/admin/views/settings-updates.php:65
 msgid "Update Information"
-msgstr "Aktualizovať infromácie"
+msgstr "Actualizează infromațiile"
 
 #: pro/admin/views/settings-updates.php:72
 msgid "Current Version"
-msgstr "Aktuálna verzia"
+msgstr "Versiunea curentă"
 
 #: pro/admin/views/settings-updates.php:80
 msgid "Latest Version"
-msgstr "Posledná verzia"
+msgstr "Ultima versiune"
 
 #: pro/admin/views/settings-updates.php:88
 msgid "Update Available"
-msgstr "Dostupná aktualizácia"
+msgstr "Sunt disponibile actualizări"
 
 #: pro/admin/views/settings-updates.php:96
 msgid "Update Plugin"
-msgstr "Aktualizovať modul"
+msgstr "Actualizează Modulul"
 
 #: pro/admin/views/settings-updates.php:98
 msgid "Please enter your license key above to unlock updates"
-msgstr "Pre odblokovanie aktualizácii, prosím zadajte váš licenčný kľúč"
+msgstr ""
+"Te rog sa introduci codul de activare în câmpul de mai sus pentru a permite "
+"actualizări"
 
 #: pro/admin/views/settings-updates.php:104
 msgid "Check Again"
-msgstr "Skontrolovať znova"
+msgstr "Verifică din nou"
 
 #: pro/admin/views/settings-updates.php:121
 msgid "Upgrade Notice"
-msgstr "Oznam o aktualizácii"
+msgstr "Anunț Actualizări"
 
 #: pro/fields/flexible-content.php:36
 msgid "Flexible Content"
-msgstr "Flexibilný obsah "
+msgstr "Conținut Flexibil"
 
 #: pro/fields/flexible-content.php:42 pro/fields/repeater.php:43
 msgid "Add Row"
-msgstr "Pridať riadok"
+msgstr "Adaugă o linie nouă"
 
 #: pro/fields/flexible-content.php:45
 msgid "layout"
-msgstr "rozloženie"
+msgstr "schemă"
 
 #: pro/fields/flexible-content.php:46
 msgid "layouts"
-msgstr "rozloženia"
+msgstr "scheme"
 
 #: pro/fields/flexible-content.php:47
 msgid "remove {layout}?"
-msgstr "odstrániť {layout}?"
+msgstr "înlătură {layout}?"
 
 #: pro/fields/flexible-content.php:48
 msgid "This field requires at least {min} {identifier}"
-msgstr "Toto pole vyžaduje najmenej {min} {identifier}"
+msgstr "Acest câmp necesită cel puțin {min} {identifier}"
 
 #: pro/fields/flexible-content.php:49
 msgid "This field has a limit of {max} {identifier}"
-msgstr "Toto pole vyžaduje najviac {max} {identifier}"
+msgstr "Acest câmp are o limită de {max} {identifier}"
 
 #: pro/fields/flexible-content.php:50
 msgid "This field requires at least {min} {label} {identifier}"
-msgstr "Toto pole vyžaduje najmenej {min} {label} {identifier}"
+msgstr "Acest câmp necesită cel puțin {min} {label} {identifier}"
 
 #: pro/fields/flexible-content.php:51
 msgid "Maximum {label} limit reached ({max} {identifier})"
-msgstr "Maximálny {label} limit dosiahnutý ({max} {identifier})"
+msgstr "Numărul maxim de {label} a fost atins ({max} {identifier})"
 
 #: pro/fields/flexible-content.php:52
 msgid "{available} {label} {identifier} available (max {max})"
-msgstr "{available} {label} {identifier} dostupné (max {max})"
+msgstr "{available} {label} {identifier} disponibile (max {max})"
 
 #: pro/fields/flexible-content.php:53
 msgid "{required} {label} {identifier} required (min {min})"
-msgstr "{required} {label} {identifier} vyžadované (min {min})"
+msgstr "{required} {label} {identifier} obligatoriu (min {min})"
 
 #: pro/fields/flexible-content.php:211
 #, php-format
 msgid "Click the \"%s\" button below to start creating your layout"
-msgstr "Pre vytvorenie rozloženia kliknite na tlačidlo \"%s\""
+msgstr "Apasă butonul  \"%s\" de mai jos pentru a începe să îți creezi schema"
 
 #: pro/fields/flexible-content.php:369
 msgid "Add layout"
-msgstr "Pridať rozloženie"
+msgstr "Adaugă Schema"
 
 #: pro/fields/flexible-content.php:374
 msgid "Remove layout"
-msgstr "Odstrániť rozloženie"
+msgstr "Înlătură Schema"
 
 #: pro/fields/flexible-content.php:518
 msgid "Reorder Layout"
-msgstr "Usporiadať rozloženie"
+msgstr "Reordonează Schema"
 
 #: pro/fields/flexible-content.php:518
 msgid "Reorder"
-msgstr "Zmeniť poradie"
+msgstr "Reordonează"
 
 #: pro/fields/flexible-content.php:519
 msgid "Delete Layout"
-msgstr "Vymazať rozloženie"
+msgstr "Șterge Schema"
 
 #: pro/fields/flexible-content.php:520
 msgid "Duplicate Layout"
-msgstr "Duplikovať rozloženie"
+msgstr "Copiază Schema"
 
 #: pro/fields/flexible-content.php:521
 msgid "Add New Layout"
-msgstr "Pridať nové rozloženie"
+msgstr "Adaugă o Nouă Schemă"
 
 #: pro/fields/flexible-content.php:565
 msgid "Display"
-msgstr "Zobrazenie"
+msgstr "Arată"
 
 #: pro/fields/flexible-content.php:576 pro/fields/repeater.php:399
 msgid "Table"
-msgstr "Tabuľka"
+msgstr "Tabel"
 
 #: pro/fields/flexible-content.php:577 pro/fields/repeater.php:400
 msgid "Block"
-msgstr "Blok"
+msgstr "Bloc"
 
 #: pro/fields/flexible-content.php:578 pro/fields/repeater.php:401
 msgid "Row"
-msgstr "Riadok"
+msgstr "Linie"
 
 #: pro/fields/flexible-content.php:593
 msgid "Min"
@@ -2344,180 +2376,111 @@ msgstr "Max"
 
 #: pro/fields/flexible-content.php:634 pro/fields/repeater.php:408
 msgid "Button Label"
-msgstr "Označenie tlačidla"
+msgstr "Buton Etichetă"
 
 #: pro/fields/flexible-content.php:643
 msgid "Minimum Layouts"
-msgstr "Minimálne rozloženie"
+msgstr "Scheme Minime"
 
 #: pro/fields/flexible-content.php:652
 msgid "Maximum Layouts"
-msgstr "Maximálne rozloženie"
+msgstr "Scheme Maxime"
 
 #: pro/fields/gallery.php:36
 msgid "Gallery"
-msgstr "Galéria"
+msgstr "Galerie"
 
 #: pro/fields/gallery.php:52
 msgid "Add Image to Gallery"
-msgstr "Pridať obrázok do galérie"
+msgstr "Adaugă imagini în Galerie"
 
 #: pro/fields/gallery.php:56
 msgid "Maximum selection reached"
-msgstr "Maximálne dosiahnuté hodnoty"
+msgstr "Selecția maximă atinsă"
 
 #: pro/fields/gallery.php:336
 msgid "Length"
-msgstr "Dĺžka"
+msgstr "Lungime"
 
 #: pro/fields/gallery.php:356
 msgid "Remove"
-msgstr "Odstrániť"
+msgstr "Înlătură"
 
 #: pro/fields/gallery.php:538
 msgid "Add to gallery"
-msgstr "Pridať do galérie"
+msgstr "Adaugă în galerie"
 
 #: pro/fields/gallery.php:542
 msgid "Bulk actions"
-msgstr "Hromadné akcie"
+msgstr "Acțiuni în masă"
 
 #: pro/fields/gallery.php:543
 msgid "Sort by date uploaded"
-msgstr "Triediť podľa dátumu nahrania"
+msgstr "Sortează după data încărcării"
 
 #: pro/fields/gallery.php:544
 msgid "Sort by date modified"
-msgstr "Triediť podľa poslednej úpravy"
+msgstr "Sortează după data modficării"
 
 #: pro/fields/gallery.php:545
 msgid "Sort by title"
-msgstr "Triediť podľa názvu"
+msgstr "Sortează după titlu"
 
 #: pro/fields/gallery.php:546
 msgid "Reverse current order"
-msgstr "Zvrátiť aktuálnu objednávku"
+msgstr "Inversează ordinea curentă"
 
 #: pro/fields/gallery.php:564
 msgid "Close"
-msgstr "Zatvoriť "
+msgstr "Închide"
 
 #: pro/fields/gallery.php:622
 msgid "Minimum Selection"
-msgstr "Minimálny výber"
+msgstr "Selecție minimă"
 
 #: pro/fields/gallery.php:631
 msgid "Maximum Selection"
-msgstr "Maximálny výber"
+msgstr "Selecție maximă"
 
 #: pro/fields/gallery.php:812
 #, php-format
 msgid "%s requires at least %s selection"
 msgid_plural "%s requires at least %s selections"
-msgstr[0] "%s vyžaduje výber najmenej %s"
-msgstr[1] "%s vyžadujú výber najmenej %s"
-msgstr[2] "%s vyžaduje výbej najmenej %s"
+msgstr[0] "%s necesită cel puțin %s selectie"
+msgstr[1] "%s necesită cel puțin %s selecții"
 
 #: pro/fields/repeater.php:36
 msgid "Repeater"
-msgstr "Opakovač"
+msgstr "Repeater"
 
 #: pro/fields/repeater.php:46
 msgid "Minimum rows reached ({min} rows)"
-msgstr "Dosiahnutý počet minimálneho počtu riadkov ({min} rows)"
+msgstr "Numărul minim de linii a fost atins ({min} rows)"
 
 #: pro/fields/repeater.php:47
 msgid "Maximum rows reached ({max} rows)"
-msgstr "Maximálny počet riadkov ({max} rows)"
+msgstr "Numărul maxim de linii a fost atins ({max} rows)"
 
 #: pro/fields/repeater.php:259
 msgid "Drag to reorder"
-msgstr "Zmeňte poradie pomocou funkcie ťahaj a pusť"
+msgstr "Trage pentru a reordona"
 
 #: pro/fields/repeater.php:301
 msgid "Add row"
-msgstr "Pridať riadok"
+msgstr "Adaugă linie"
 
 #: pro/fields/repeater.php:302
 msgid "Remove row"
-msgstr "Odstrániť riadok"
+msgstr "Înlătură linie"
 
 #: pro/fields/repeater.php:350
 msgid "Sub Fields"
-msgstr "Podpolia"
+msgstr "Sub câmpuri"
 
 #: pro/fields/repeater.php:372
 msgid "Minimum Rows"
-msgstr "Minimálny počet riadkov"
+msgstr "Numărul minim de Linii"
 
 #: pro/fields/repeater.php:382
 msgid "Maximum Rows"
-msgstr "Maximálny počet riadkov"
-
-#~ msgid "file"
-#~ msgstr "subor"
-
-#~ msgid "image"
-#~ msgstr "obrazok"
-
-#~ msgid "expand_details"
-#~ msgstr "zvacsit_detaily"
-
-#~ msgid "collapse_details"
-#~ msgstr "zmensit_detaily"
-
-#~ msgid "relationship"
-#~ msgstr "vztah"
-
-#~ msgid "unload"
-#~ msgstr "unload"
-
-#~ msgid "title_is_required"
-#~ msgstr "nadpis_je_povinny"
-
-#~ msgid "move_to_trash"
-#~ msgstr "move_to_trash"
-
-#~ msgid "move_field_warning"
-#~ msgstr "move_field_warning"
-
-#~ msgid "move_field"
-#~ msgstr "presunut_pole"
-
-#~ msgid "field_name_start"
-#~ msgstr "field_name_start"
-
-#~ msgid "null"
-#~ msgstr "null"
-
-#~ msgid "hide_show_all"
-#~ msgstr "skryt_zobrazit_vsetko"
-
-#~ msgid "flexible_content"
-#~ msgstr "flexibilny_obsah"
-
-#~ msgid "gallery"
-#~ msgstr "galeria"
-
-#~ msgid "repeater"
-#~ msgstr "opakovac"
-
-#, fuzzy
-#~ msgid "Custom field updated."
-#~ msgstr "Vlastné pole aktualizované."
-
-#, fuzzy
-#~ msgid "Custom field deleted."
-#~ msgstr "Vlastné pole vymazané."
-
-#~ msgid "Field group duplicated! Edit the new \"%s\" field group."
-#~ msgstr "Pole skupiny bolo duplikované! Upravnte novú pole  \"%s\""
-
-#~ msgid "Import/Export"
-#~ msgstr "Import/Export"
-
-#~ msgid "Column Width"
-#~ msgstr "Šírka stĺpca"
-
-#~ msgid "Attachment Details"
-#~ msgstr "Detialy prílohy"
+msgstr "Numărul maxim de Linii"
