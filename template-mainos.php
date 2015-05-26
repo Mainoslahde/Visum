@@ -14,9 +14,6 @@
             <?php // WP_Query arguments
             $args = array (
                 'post_type'          => 'mainos',
-                'order'              => 'DESC',
-                'orderby'            => 'title',
-                'suppress_filters'   => true
             );
 
             // The Query
@@ -30,7 +27,7 @@
                        <?php if (get_field('mediatyyppi') == 'kuva') : ?>
                            <img src="<?php the_field('mainoskuva'); ?>" class="img-responsive" alt="Esittelyssä"/>                    
                        <?php elseif (get_field('mediatyyppi') == 'video') : ?>
-                           <video id="video" width="100%" height="768" autoplay controls muted loop>
+                           <video id="video" width="100%" height="768" autoplay muted loop>
                                <source src="<?php the_field('html5_video'); ?>" type="video/mp4">
                            </video>
                        <?php endif; ?>

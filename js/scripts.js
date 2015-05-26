@@ -16,9 +16,10 @@ jQuery(document).ready(function($) {
     });
     
     if ($('#video').length > 0) { // tarkastaa onko #video olemassa
-        // On before slide change
+        // suorita kun dia vaihtuu
         $('.main-gallery').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-          $('#video')[0].play();
+          $('#video')[0].currentTime = 0; // aseta ajaksi 0. Aloittaa videon alusta.
+          $('#video')[0].play(); // toistaa videon.
         });
     }
 
