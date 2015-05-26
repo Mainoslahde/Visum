@@ -265,18 +265,4 @@ add_action( 'edit_category', 'visum_category_transient_flusher' );
 add_action( 'save_post',     'visum_category_transient_flusher' );
 
  
-//Define the function
- 
-function customize_customtaxonomy_archive_display ( $query ) {
-    if (($query->is_main_query()) && (is_tax('tayte')))
-         
-    $query->set( 'posts_per_page', '3' );
-    $query->set( 'orderby', 'title' );
-    $query->set( 'order', 'ASC' );
-}
- 
-//Hook the function
- 
-add_action( 'pre_get_posts', 'customize_customtaxonomy_archive_display' );
- 
 ?>
